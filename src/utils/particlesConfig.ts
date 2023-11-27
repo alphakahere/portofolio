@@ -28,10 +28,8 @@ export const particlesOptions = {
 		events: {
 			onClick: {
 				enable: false,
-				mode: [],
 			},
 			onDiv: {
-				selectors: [],
 				enable: false,
 				mode: [],
 				type: "circle",

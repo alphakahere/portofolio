@@ -1,4 +1,5 @@
 import { Background } from "@/components/Background";
+import Profile from "@/components/Profile";
 import {
 	BookText,
 	Briefcase,
@@ -12,7 +13,7 @@ import Link from "next/link";
 
 const menus = [
 	{ label: "A propos", path: "a-propos", icon: <User2 /> },
-	{ label: "Curriculum", path: "curriculum", icon: <BookText /> },
+	{ label: "Resumé", path: "resume", icon: <BookText /> },
 	{ label: "Projets", path: "projets", icon: <Briefcase /> },
 	{ label: "Blog", path: "blog", icon: <Pencil /> },
 	{ label: "Contact", path: "contact", icon: <Send /> },
@@ -49,7 +50,7 @@ export default function Home() {
 							</button>
 						</ul>
 					</nav>
-					<section className="w-1/4">Profile</section>
+					<Profile />
 					<section className="flex-1">Page</section>
 				</div>
 			</section>
