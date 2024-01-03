@@ -7,6 +7,7 @@ import {
 	Pencil,
 	Send,
 	Settings,
+	Sidebar,
 	User2,
 } from "lucide-react";
 import Link from "next/link";
