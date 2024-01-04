@@ -3,9 +3,7 @@ import { Inter, Syne, Rubik } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
-export const syne = Syne({ subsets: ["latin"] });
-export const rubik = Rubik({ subsets: ["latin"] });
+const rubik = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "alphakahere.dev",
