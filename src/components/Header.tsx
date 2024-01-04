@@ -1,7 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { syne } from "@/app/layout";
 import { ArrowRightIcon } from "lucide-react";
+import { Syne } from "next/font/google";
+
+const syne = Syne({ subsets: ["latin"] });
 
 const Header = () => {
 	return (
@@ -19,7 +21,7 @@ const Header = () => {
 						</h1>
 						<p className="text-center">
 							I&apos;m a full stack developer
-							(React.js & Node.js) with a focus on
+							(React.js & Laravel) with a focus on
 							creating (and occasionally designing)
 							exceptional digital experiences that
 							are fast, accessible, visually
