@@ -14,6 +14,7 @@ const config: Config = {
 				dark2: "#03030480",
 				grey: "#A8A8A8",
 				grey_light: "#F4F7FA",
+				greyText: "#A8A8A8",
 			},
 			borderRadius: {
 				"4xl": "30px",

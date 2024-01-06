@@ -5,7 +5,7 @@ import Link from "next/link";
 const menus = [
 	{ label: "Home", path: "home" },
 	{ label: "About me", path: "resume" },
-	{ label: "My Works", path: "my works" },
+	{ label: "My Works", path: "my-works" },
 	{ label: "Blog", path: "blog" },
 	// { label: "Contact", path: "contact" },
 ];

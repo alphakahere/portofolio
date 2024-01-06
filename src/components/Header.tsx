@@ -1,20 +1,18 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { ArrowRightIcon } from "lucide-react";
-import { Syne } from "next/font/google";
-
-const syne = Syne({ subsets: ["latin"] });
+import { syne } from "@/constants/constants";
 
 const Header = () => {
 	return (
-		<header>
+		<header className="mb-24">
 			<Navbar />
 			<div className="px-20">
 				<div className="flex flex-col items-center space-y-16 relative text-white">
 					<div className="flex flex-col items-center space-y-4">
 						<p>Hi, I’m Alpha Amadou Diallo 👋</p>
 						<h1
-							className={`${syne.className} text-center text-white text-6xl font-bold leading-normal`}
+							className={`${syne.className} title-text text-6xl text-center`}
 						>
 							Web Developer working with <br />{" "}
 							JavaScript, TypeScript and PHP
