@@ -4,7 +4,7 @@ import React from "react";
 
 const Portofolio = () => {
 	return (
-		<section>
+		<section className="mb-24">
 			<h3
 				className={`${syne.className} title-text text-5xl mb-12 text-center`}
 			>

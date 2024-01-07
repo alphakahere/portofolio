@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Syne, Rubik } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: Props) {
 			>
 				<Header />
 				<main className="">{children}</main>
+				<Footer />
 			</body>
 		</html>
 	);
