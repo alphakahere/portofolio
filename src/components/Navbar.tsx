@@ -12,7 +12,7 @@ const menus = [
 
 const Navbar = () => {
 	return (
-		<nav className="flex items-center justify-between mb-40">
+		<nav className="flex items-center justify-between mb-40 sticky top-0">
 			<div className="flex items-center gap-2">
 				<button className="text-white">
 					<Menu />

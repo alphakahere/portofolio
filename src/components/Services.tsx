@@ -5,7 +5,7 @@ const Services = () => {
 	return (
 		<section className="mb-24">
 			{/* <h1>Services</h1> */}
-			<h3 className={`${syne.className} title-text text-4xl mb-3`}>
+			<h3 className={`${syne.className} title-text text-4xl mb-5`}>
 				How i can help
 			</h3>
 			<div className="grid grid-cols-1 lg:grid-cols-3 gap-5">

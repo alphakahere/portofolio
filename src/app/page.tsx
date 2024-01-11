@@ -8,8 +8,8 @@ export default function Home() {
 		<>
 			<About />
 			<Services />
-			<Portofolio />
-			<Testimonials />
+			{/* <Portofolio />
+			<Testimonials /> */}
 		</>
 	);
 }

@@ -10,14 +10,16 @@ const Header = () => {
 			<div className="px-20">
 				<div className="flex flex-col items-center space-y-16 relative text-white">
 					<div className="flex flex-col items-center space-y-4">
-						<p>Hi, I’m Alpha Amadou Diallo 👋</p>
+						<p className="text-lg">
+							Hi, I’m Alpha Amadou Diallo 👋
+						</p>
 						<h1
-							className={`${syne.className} title-text text-6xl text-center`}
+							className={`${syne.className} title-text text-6xl leading-snug text-center`}
 						>
-							Web Developer working with <br />{" "}
-							JavaScript, TypeScript and PHP
+							Web Developer working with JavaScript,
+							TypeScript and PHP
 						</h1>
-						<p className="text-center">
+						{/* <p className="text-center">
 							I&apos;m a full stack developer
 							(React.js & Laravel) with a focus on
 							creating (and occasionally designing)
@@ -27,13 +29,13 @@ const Header = () => {
 							I have been creating web applications
 							for over 2 years, I still love it as
 							if it was something new.
-						</p>
+						</p> */}
 					</div>
 					<button className="bg-primary text-xs font-bold flex items-center gap-3 text-grey_light px-5 py-2 rounded-4xl -tracking-tighter uppercase">
 						<span>Explore works</span>
 						<ArrowRightIcon width={14} />
 					</button>
-					<div className="w-44 h-40 bg-grey blur-[100px]  absolute right-52 -top-10" />
+					<div className="w-40 h-32 bg-grey blur-[100px]  absolute right-0 -top-10" />
 				</div>
 			</div>
 		</header>
