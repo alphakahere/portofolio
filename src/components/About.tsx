@@ -37,8 +37,8 @@ const About = () => {
 						alt="photo profil"
 						className="rounded-4xl filter grayscale hover:filter-none transition-all ease-in duration-300"
 					/>
-					<div className="w-14 h-44 border-2 border-primary rounded-4xl absolute -left-10 bottom-5" />
-					<div className="w-10 h-32 border-2 border-primary rounded-4xl absolute right-10 -top-16 rotate-90" />
+					<div className="w-14 h-44 border-1 border-primary rounded-4xl absolute -left-10 bottom-5" />
+					<div className="w-10 h-32 border-1 border-primary rounded-4xl absolute right-10 -top-16 rotate-90" />
 				</div>
 			</div>
 			<div className="w-32 h-20 bg-grey rounded-full absolute -left-14 top-5 blur-[100px]" />

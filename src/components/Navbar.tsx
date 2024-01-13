@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
 import { Menu } from "lucide-react";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { navVariants } from "@/utils/motion";
 
 const menus = [
 	{ label: "Home", path: "home" },
@@ -12,11 +15,16 @@ const menus = [
 
 const Navbar = () => {
 	return (
-		<nav className="flex items-center justify-between mb-40 sticky top-0">
+		<motion.nav
+			variants={navVariants}
+			initial="hidden"
+			whileInView="show"
+			className="flex items-center justify-between mb-40"
+		>
 			<div className="flex items-center gap-2">
-				<button className="text-white">
+				{/* <button className="text-white">
 					<Menu />
-				</button>
+				</button> */}
 				<Link
 					href="/"
 					className="text-white text-2xl leading-8"
@@ -44,7 +52,7 @@ const Navbar = () => {
 					</Link>
 				</li>
 			</ul>
-		</nav>
+		</motion.nav>
 	);
 };
 
