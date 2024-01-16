@@ -3,8 +3,7 @@ import React from "react";
 
 const Services = () => {
 	return (
-		<section className="mb-24">
-			{/* <h1>Services</h1> */}
+		<section className="mb-32">
 			<h3 className={`${syne.className} title-text text-4xl mb-5`}>
 				How i can help
 			</h3>

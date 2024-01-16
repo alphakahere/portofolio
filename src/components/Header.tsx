@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Navbar from "./Navbar";
-import { ArrowRightIcon } from "lucide-react";
+import { MoveRight } from "lucide-react";
 import { syne } from "@/constants/constants";
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "@/utils/motion";
@@ -14,10 +14,10 @@ const Header = () => {
 				<motion.div
 					className="flex flex-col items-center space-y-16 relative text-white"
 					// @ts-ignore
-					variants={staggerContainer}
-					initial="hidden"
-					whileInView="show"
-					viewport={{ once: false, amount: 0.25 }}
+					// variants={staggerContainer}
+					// initial="hidden"
+					// whileInView="show"
+					// viewport={{ once: false, amount: 0.25 }}
 				>
 					<div className="flex flex-col items-center space-y-4">
 						<motion.p
@@ -47,7 +47,7 @@ const Header = () => {
 					</div>
 					<button className="bg-primary text-xs font-bold flex items-center gap-3 text-grey_light px-5 py-2 rounded-4xl -tracking-tighter uppercase">
 						<span>Explore works</span>
-						<ArrowRightIcon width={14} />
+						<MoveRight width={14} />
 					</button>
 					<div className="w-40 h-32 bg-grey blur-[100px]  absolute right-0 -top-10" />
 				</motion.div>

@@ -41,7 +41,7 @@ const About = () => {
 					<div className="w-10 h-32 border-1 border-primary rounded-4xl absolute right-10 -top-16 rotate-90" />
 				</div>
 			</div>
-			<div className="w-32 h-20 bg-grey rounded-full absolute -left-14 top-5 blur-[100px]" />
+			<div className="w-32 h-20 bg-grey inset-0 absolute -left-14 top-5 filter blur-3xl" />
 		</section>
 	);
 };

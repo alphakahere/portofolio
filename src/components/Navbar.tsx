@@ -16,9 +16,9 @@ const menus = [
 const Navbar = () => {
 	return (
 		<motion.nav
-			variants={navVariants}
-			initial="hidden"
-			whileInView="show"
+			// variants={navVariants}
+			// initial="hidden"
+			// whileInView="show"
 			className="flex items-center justify-between mb-40"
 		>
 			<div className="flex items-center gap-2">
