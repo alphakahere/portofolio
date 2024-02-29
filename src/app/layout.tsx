@@ -19,9 +19,9 @@ export default function RootLayout({ children }: Props) {
 	return (
 		<html lang="en">
 			<body
-				className={`${rubik.className} bg-dark snap-y snap-mandatory`}
+				className={`${rubik.className} bg-dark snap-y snap-mandatory overflow-x-hidden`}
 			>
-				<div>
+				<div className="px-56">
 					<Header />
 					<main className="snap-y snap-mandatory">
 						{children}

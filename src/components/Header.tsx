@@ -8,12 +8,12 @@ import { staggerContainer, textVariant } from "@/utils/motion";
 
 const Header = () => {
 	return (
-		<header className="mb-24">
+		<header className="mb-24 pt-5">
 			<Navbar />
 			<div className="px-20">
 				<motion.div
 					className="flex flex-col items-center space-y-16 relative text-white"
-					// @ts-ignore
+					// // @ts-ignore
 					// variants={staggerContainer}
 					// initial="hidden"
 					// whileInView="show"

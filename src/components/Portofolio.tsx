@@ -13,7 +13,7 @@ const Portofolio = () => {
 				My Projects Highlight
 			</h3>
 			<div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 mb-10">
-				{[...Array(6)].map((item, i) => (
+				{[...Array(3)].map((item, i) => (
 					<div
 						className="project__card_item mb-8 relative"
 						key={i}
