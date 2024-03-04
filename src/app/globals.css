@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
+.app-container {
     @apply max-w-screen-2xl px-2 lg:px-5 2xl:px-10 mx-auto overflow-x-hidden;
 }
 
@@ -23,8 +23,6 @@
 	filter: blur(100px);
 }
 
-.overlay {
-}
 .project__card_item:hover .overlay{
     display: block !important;
 }

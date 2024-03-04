@@ -6,25 +6,18 @@ import { motion } from "framer-motion";
 import { navVariants } from "@/utils/motion";
 
 const menus = [
-	{ label: "Home", path: "home" },
-	{ label: "About me", path: "resume" },
-	{ label: "My Works", path: "my-works" },
-	{ label: "Blog", path: "blog" },
-	// { label: "Contact", path: "contact" },
+	{ label: "Accueil", path: "" },
+	{ label: "A propos", path: "#apropos" },
+	{ label: "Projets", path: "#projets" },
 ];
 
 const Navbar = () => {
 	return (
 		<motion.nav
 			variants={navVariants}
-			// initial="hidden"
-			// whileInView="show"
-			className="flex items-center justify-between mb-40"
+			className="flex items-center justify-between gap-4 mb-24 md:mb-40"
 		>
 			<div className="flex items-center gap-2">
-				{/* <button className="text-white">
-					<Menu />
-				</button> */}
 				<Link
 					href="/"
 					className="text-white text-2xl leading-8"
@@ -32,9 +25,9 @@ const Navbar = () => {
 					ALPHAKAHERE.DEV
 				</Link>
 			</div>
-			<ul className="flex items-center gap-12">
+			<ul className="md:flex items-center gap-12">
 				{menus?.map(({ label, path }, i) => (
-					<li key={i}>
+					<li key={i} className="hidden lg:block">
 						<Link
 							href={path}
 							className="text-grey uppercase font-medium leading-normal text-sm"
@@ -43,9 +36,18 @@ const Navbar = () => {
 						</Link>
 					</li>
 				))}
+				<li className="hidden lg:block">
+					<Link
+						href="https://blog.alphakahere.dev/"
+						className="text-grey uppercase font-medium leading-normal text-sm"
+						target="_blank"
+					>
+						Blog
+					</Link>
+				</li>
 				<li>
 					<Link
-						href="/contact"
+						href="mailto:hello.alphakahere.dev"
 						className="text-white uppercase font-bold leading-normal text-sm py-3 px-5 bg-dark2 rounded-4xl opacity-80 border-2 border-grey"
 					>
 						Contact

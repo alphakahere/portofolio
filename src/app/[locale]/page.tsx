@@ -3,14 +3,15 @@ import Portofolio from "@/components/Portofolio";
 import Services from "@/components/Services";
 import Technologies from "@/components/Technologies";
 import Testimonials from "@/components/Testimonials";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
 	return (
 		<>
-			<About />
+			{/* <About />
 			<Services />
 			<Portofolio />
-			<Technologies />
+			<Technologies /> */}
 			{/* <Testimonials /> */}
 		</>
 	);
