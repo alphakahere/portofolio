@@ -12,8 +12,10 @@ const config: Config = {
 				primary: "#FF9142",
 				dark: "#1A1A1A",
 				dark2: "#03030480",
+				dark3: "#131313",
 				grey: "#A8A8A8",
 				grey_light: "#F4F7FA",
+				greyText: "#A8A8A8",
 			},
 			borderRadius: {
 				"4xl": "30px",

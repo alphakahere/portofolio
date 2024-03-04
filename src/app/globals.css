@@ -2,5 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.container {
+    @apply  px-2 lg:px-5 2xl:px-10 mx-auto overflow-x-hidden;
+}
+
+.button {
+	@apply bg-primary text-xs font-bold flex items-center gap-3 text-grey_light px-5 py-3 rounded-4xl -tracking-tighter uppercase;
+}
+.title-text {
+	@apply text-white font-bold;
+}
+.text {
+	@apply text-greyText font-normal leading-normal;
+}
+
+.vector {
+	transform: rotate(-178.318deg);
+	flex-shrink: 0;
+	background-color: rgba(255, 255, 255, 0.18);
+	filter: blur(100px);
+}
+
+.project__card_item:hover .overlay{
+    display: block !important;
 }

@@ -1,0 +1,16 @@
+{
+	"header": {
+		"greetings": "Hi, I’m Alpha Amadou Diallo",
+		"title": "Web Developer working with JavaScript, TypeScript and PHP",
+		"buttonText": "Explore works"
+	},
+	"about": {
+		"title": "Let’s get know <br /> about me closer",
+		"text": "I'm a full stack developer (React.js & Laravel) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though,I have been creating web applications for over three years, I still love it as if it was something new."
+	},
+	"footer": {
+		"ctaText": "Get in Touch With me",
+		"address": "Dakar, Senegal",
+		"copyright": "All rights reserved"
+	}
+}
