@@ -1,6 +1,12 @@
 {
-	"header": { "greetings": "Hi, Je suisg Alpha Amadou Diallo" },
-	"profile": {
-		"title": "Web fullstack developer"
+	"header": {
+		"greetings": "Hi, Je suis Alpha Amadou Diallo",
+		"title": "Développeur web travaillant avec JavaScript, TypeScript et PHP",
+		"buttonText": "Voir mes projets"
+	},
+	"footer": {
+		"ctaText": "Contactez-moi",
+		"address": "Dakar, Sénégal",
+		"copyright": "Tous droits réservés"
 	}
 }

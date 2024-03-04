@@ -9,18 +9,16 @@ const Header = () => {
 	return (
 		<header className="mb-24 pt-5">
 			<Navbar />
-			<div className="px-5 md:px-20">
+			<div className="px-5 md:px-20 lg:px-52">
 				<div className="flex flex-col items-center space-y-16 relative text-white">
 					<div className="flex flex-col items-center space-y-4">
-						<p className="text-lg whitespace-nowrap">
-							{t("greetings")}👋
+						<p className="text-lg lg:text-xl whitespace-nowrap">
+							{t("greetings")} 👋
 						</p>
 						<h1
-							className={`${syne.className} title-text text-2xl leading-snug text-center`}
-							// variants={textVariant(1.4)}
+							className={`${syne.className} title-text text-2xl lg:text-5xl leading-snug lg:leading-normal text-center`}
 						>
-							Web Developer working with JavaScript,
-							TypeScript and PHP
+							{t("title")}
 						</h1>
 						{/* <p className="text-center">
 							I&apos;m a full stack developer
@@ -35,10 +33,10 @@ const Header = () => {
 						</p> */}
 					</div>
 					<button className="bg-primary text-xs font-bold flex items-center gap-3 text-grey_light px-5 py-2 rounded-4xl -tracking-tighter uppercase">
-						<span>Explore works</span>
+						<span>{t("buttonText")}</span>
 						<MoveRight width={14} />
 					</button>
-					<div className="w-40 h-32 bg-grey blur-[100px]  absolute right-0 -top-10 hidden" />
+					<div className="w-40 h-32 bg-grey blur-[100px]  absolute right-0 -top-10" />
 				</div>
 			</div>
 		</header>

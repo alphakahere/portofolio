@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.app-container {
-    @apply max-w-screen-2xl px-2 lg:px-5 2xl:px-10 mx-auto overflow-x-hidden;
+.container {
+    @apply  px-2 lg:px-5 2xl:px-10 mx-auto overflow-x-hidden;
 }
 
 .button {
