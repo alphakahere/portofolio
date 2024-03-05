@@ -12,5 +12,19 @@
 		"ctaText": "Get in Touch With me",
 		"address": "Dakar, Senegal",
 		"copyright": "All rights reserved"
-	}
+	},
+	"service": [
+		{
+			"title": "Frontend",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+		},
+		{
+			"title": "Web application",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+		},
+		{
+			"title": "Formations",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+		}
+	]
 }

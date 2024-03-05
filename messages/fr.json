@@ -5,12 +5,26 @@
 		"buttonText": "Voir mes projets"
 	},
 	"about": {
-		"title": "Faisons plus ample connaissance",
+		"title": "Faisons plus ample <br /> connaissance",
 		"text": "Je suis un développeur full stack (React.js & Laravel) qui se concentre sur la création (et occasionnellement la conception) d'expériences numériques exceptionnelles qui sont rapides, accessibles, visuellement attrayantes et réactives. Même si je crée des applications web depuis plus de trois ans, j'aime toujours ça comme si c'était quelque chose de nouveau."
 	},
 	"footer": {
 		"ctaText": "Contactez-moi",
 		"address": "Dakar, Sénégal",
 		"copyright": "Tous droits réservés"
-	}
+	},
+	"service": [
+		{
+			"title": "Frontend",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+		},
+		{
+			"title": "Applications web",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+		},
+		{
+			"title": "Formations",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+		}
+	]
 }
