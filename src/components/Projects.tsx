@@ -2,18 +2,21 @@ import { syne } from "@/constants/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { MoveRight } from "lucide-react";
+import data from "../../messages/fr.json";
+import { useTranslations } from "next-intl";
+import SectionTitle from "./SectionTitle";
+import { ExternalLink } from "lucide-react";
 
-const Portofolio = () => {
+const Projects = () => {
+	const t = useTranslations("project");
 	return (
 		<section className="mb-24">
-			<h3
-				className={`${syne.className} title-text text-5xl mb-12 text-center`}
-			>
-				My Projects Highlight
-			</h3>
+			<div className="relative">
+				<SectionTitle title={t("title")} align="text-center" />
+				<div className="w-24 h-12 bg-grey  absolute left-2/3 -translate-x-1/2  -top-5 filter blur-2xl" />
+			</div>
 			<div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 mb-10">
-				{[...Array(3)].map((item, i) => (
+				{data.project.list.map((item, i) => (
 					<div
 						className="project__card_item mb-8 relative"
 						key={i}
@@ -31,42 +34,39 @@ const Portofolio = () => {
 							<h5
 								className={`${syne.className} text-xl font-bold leading-8 text-white opacity-80 relative after:w-10 after:h-[1px] after:bg-primary after:absolute after:top-4 after:right-0`}
 							>
-								Brand Journey Improvements
+								{t(`list.${i}.name`)}
 							</h5>
 						</div>
-						<div className="overlay text-white bg-dark3 p-5 absolute top-0 left-0 h-full rounded-2xl hidden hover:scale-105 overflow-hidden">
+						<div className="overlay text-white bg-dark3 p-5 absolute top-0 left-0 h-full rounded-2xl hidden hover:scale-[1.01] overflow-hidden">
 							<div className="flex flex-col justify-center h-full">
-								<div>
+								<div className="mb-5">
 									<h5 className="mb-3">
-										Brand Journey
-										Improvements
+										{t(
+											`list.${i}.name`
+										)}
 									</h5>
 									<p className="mb-3">
-										Lorem ipsum dolor
-										sit amet consectetur
-										adipisicing elit.
-										Voluptas corrupti
-										maxime cumque
-										quibusdam
-										praesentium ex. Ipsa
-										dicta molestias
-										facere beatae sed
-										quae illo, tenetur
-										voluptatibus
-										incidunt optio, esse
-										nobis dolore?
+										{t(
+											`list.${i}.description`
+										)}
 									</p>
 								</div>
 								<div className="flex justify-between">
 									<Link
 										href={`projects/${1}`}
+										className="button_link"
 									>
 										More Details
 									</Link>
 									<Link
-										href={`projects/${1}`}
+										href={item.github}
+										target="_blank"
+										className="button_link flex items-center gap-2"
 									>
-										Github
+										<span>Github</span>
+										<ExternalLink
+											size={18}
+										/>
 									</Link>
 								</div>
 							</div>
@@ -74,14 +74,14 @@ const Portofolio = () => {
 					</div>
 				))}
 			</div>
-			<div className="flex justify-center">
+			{/* <div className="flex justify-center">
 				<button className="border border-primary text-xs font-bold flex items-center gap-3 text-grey_light px-8 py-3 rounded-4xl -tracking-tighter uppercase">
 					<span>Explore works</span>
 					<MoveRight width={14} />
 				</button>
-			</div>
+			</div> */}
 		</section>
 	);
 };
 
-export default Portofolio;
+export default Projects;

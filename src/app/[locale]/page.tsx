@@ -1,17 +1,20 @@
 import About from "@/components/About";
-import Portofolio from "@/components/Portofolio";
+import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Technologies from "@/components/Technologies";
 import Testimonials from "@/components/Testimonials";
+import LocaleLayout from "@/components/intl/LocaleLayout";
 
 export default function Home() {
 	return (
 		<>
 			<About />
 			<Services />
-			{/* <Portofolio />
-			<Technologies /> */}
-			{/* <Testimonials /> */}
+			<Projects />
+			<Technologies />
+			<LocaleLayout>
+				<Testimonials />
+			</LocaleLayout>
 		</>
 	);
 }
