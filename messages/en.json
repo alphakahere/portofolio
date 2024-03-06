@@ -12,5 +12,100 @@
 		"ctaText": "Get in Touch With me",
 		"address": "Dakar, Senegal",
 		"copyright": "All rights reserved"
+	},
+	"service": {
+		"title": "How i can help",
+		"list": [
+			{
+				"title": "Frontend",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"title": "Web application",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"title": "Formations",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			}
+		]
+	},
+	"project": {
+		"title": "My Projects Highlight",
+		"list": [
+			{
+				"name": "Bricopole",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
+				"github": ""
+			},
+			{
+				"name": "Bricopole",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
+				"github": ""
+			},
+			{
+				"name": "Bricopole",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
+				"github": ""
+			}
+		]
+	},
+	"technologie": {
+		"title": "Technologies I Work With",
+		"list": [
+			{
+				"name": "React",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Nextjs",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Laravel",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "React",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Nextjs",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Laravel",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			}
+		]
+	},
+	"testimonial": {
+		"title": "Testimonials",
+		"list": [
+			{
+				"name": "Sadio Sangharé",
+				"function": "CTO at Volkeno",
+				"testimonial": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Sada",
+				"function": "CEO",
+				"testimonial": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Elhadj",
+				"function": "Web developer",
+				"testimonial": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			}
+		]
 	}
 }

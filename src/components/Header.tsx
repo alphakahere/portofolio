@@ -16,7 +16,7 @@ const Header = () => {
 							{t("greetings")} 👋
 						</p>
 						<h1
-							className={`${syne.className} title-text text-2xl lg:text-5xl leading-snug lg:leading-normal text-center`}
+							className={`${syne.className} title-text text-2xl lg:text-6xl leading-snug lg:leading-normal text-center`}
 						>
 							{t("title")}
 						</h1>

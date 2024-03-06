@@ -9,10 +9,11 @@ const About = () => {
 		<section className="flex flex-col lg:flex-row items-center mb-24 relative">
 			<div className="lg:w-1/2">
 				<h3
-					className={`${syne.className} title-text text-4xl leading-snug mb-5`}
-				>
-					{t("title")}
-				</h3>
+					className={`${syne.className}  title-text text-2xl md:text-4xl 2xl:text-5xl mb-5 lg:mb-8`}
+					dangerouslySetInnerHTML={{
+						__html: t.raw("title"),
+					}}
+				/>
 				<p className="text mb-12">{t("text")}</p>
 				{/* <button className="button">
 					Discover More About Me
@@ -29,7 +30,7 @@ const About = () => {
 					/>
 				</div>
 			</div>
-			<div className="w-32 h-20 bg-grey inset-0 absolute -left-14 top-5 filter blur-3xl" />
+			<div className="w-32 h-20 bg-grey inset-0 absolute -left-14 top-14 filter blur-3xl" />
 		</section>
 	);
 };

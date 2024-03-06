@@ -3,6 +3,7 @@ import { Inter, Syne, Rubik } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export function generateStaticParams() {
 }
 
 export default function RootLayout({ children, params: { locale } }: Props) {
+	unstable_setRequestLocale(locale);
 	return (
 		<html lang={locale}>
 			<body

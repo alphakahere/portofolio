@@ -5,12 +5,107 @@
 		"buttonText": "Voir mes projets"
 	},
 	"about": {
-		"title": "Faisons plus ample connaissance",
+		"title": "Faisons plus ample <br /> connaissance",
 		"text": "Je suis un développeur full stack (React.js & Laravel) qui se concentre sur la création (et occasionnellement la conception) d'expériences numériques exceptionnelles qui sont rapides, accessibles, visuellement attrayantes et réactives. Même si je crée des applications web depuis plus de trois ans, j'aime toujours ça comme si c'était quelque chose de nouveau."
 	},
 	"footer": {
 		"ctaText": "Contactez-moi",
 		"address": "Dakar, Sénégal",
 		"copyright": "Tous droits réservés"
+	},
+	"service": {
+		"title": "Comment puis-je vous aider",
+		"list": [
+			{
+				"title": "Frontend",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"title": "Applications web",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"title": "Formations",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			}
+		]
+	},
+	"project": {
+		"title": "Mes projets en vedette",
+		"list": [
+			{
+				"name": "Bricopole",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
+				"github": ""
+			},
+			{
+				"name": "Bricopole",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
+				"github": ""
+			},
+			{
+				"name": "Bricopole",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
+				"github": ""
+			}
+		]
+	},
+	"technologie": {
+		"title": "Technologies que j'utilise",
+		"list": [
+			{
+				"name": "React",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Nextjs",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Laravel",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "React",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Nextjs",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Laravel",
+				"image": "",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			}
+		]
+	},
+	"testimonial": {
+		"title": "Témoignages",
+		"list": [
+			{
+				"name": "Sadio Sangharé",
+				"function": "CTO at Volkeno",
+				"testimonial": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Sada",
+				"function": "CEO",
+				"testimonial": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			},
+			{
+				"name": "Elhadj",
+				"function": "Web developer",
+				"testimonial": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+			}
+		]
 	}
 }
