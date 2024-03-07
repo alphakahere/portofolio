@@ -10,7 +10,7 @@ import { ExternalLink } from "lucide-react";
 const Projects = () => {
 	const t = useTranslations("project");
 	return (
-		<section className="mb-24">
+		<section className="mb-32">
 			<div className="relative">
 				<SectionTitle title={t("title")} align="text-center" />
 				<div className="w-24 h-12 bg-grey  absolute left-2/3 -translate-x-1/2  -top-5 filter blur-2xl" />
@@ -38,17 +38,44 @@ const Projects = () => {
 							</h5>
 						</div>
 						<div className="overlay text-white bg-dark3 p-5 absolute top-0 left-0 h-full rounded-2xl hidden hover:scale-[1.01] overflow-hidden">
-							<div className="flex flex-col justify-center h-full">
+							<div className="flex flex-col justify-between h-full">
 								<div className="mb-5">
-									<h5 className="mb-3">
+									<h5 className="mb-3 text-2xl font-semibold">
 										{t(
 											`list.${i}.name`
 										)}
 									</h5>
-									<p className="mb-3">
+									<p className="mb-3 text-white opacity-80 text-base">
 										{t(
 											`list.${i}.description`
 										)}
+										Lorem ipsum dolor
+										sit amet consectetur
+										adipisicing elit. Et
+										eaque fugit
+										distinctio, fuga
+										exercitationem
+										deserunt accusamus
+										possimus nisi amet.
+										Nemo quam dolorem
+										voluptates in beatae
+										aliquam. Aliquam eum
+										excepturi natus.
+										Lorem ipsum dolor
+										sit amet,
+										consectetur
+										adipisicing elit.
+										Adipisci, laboriosam
+										in labore excepturi
+										iusto vel dicta
+										nihil tempora iure,
+										modi beatae
+										consectetur?
+										Repellendus
+										voluptate voluptates
+										cupiditate
+										doloribus. Nulla,
+										sunt ab?
 									</p>
 								</div>
 								<div className="flex justify-between">

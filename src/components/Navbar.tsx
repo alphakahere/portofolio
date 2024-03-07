@@ -5,17 +5,13 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { navVariants } from "@/utils/motion";
 
-const menus = [
-	{ label: "Accueil", path: "" },
-	{ label: "A propos", path: "#apropos" },
-	{ label: "Projets", path: "#projets" },
-];
+const menus = [{ label: "Accueil", path: "" }];
 
 const Navbar = () => {
 	return (
 		<motion.nav
 			variants={navVariants}
-			className="flex items-center justify-between gap-4 mb-24 md:mb-40"
+			className="flex items-center justify-between gap-4 mb-24 md:mb-28"
 		>
 			<div className="flex items-center gap-2">
 				<Link

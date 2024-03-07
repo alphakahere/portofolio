@@ -5,8 +5,8 @@
 		"buttonText": "Voir mes projets"
 	},
 	"about": {
-		"title": "Faisons plus ample <br /> connaissance",
-		"text": "Je suis un développeur full stack (React.js & Laravel) qui se concentre sur la création (et occasionnellement la conception) d'expériences numériques exceptionnelles qui sont rapides, accessibles, visuellement attrayantes et réactives. Même si je crée des applications web depuis plus de trois ans, j'aime toujours ça comme si c'était quelque chose de nouveau."
+		"title": "À propos de moi",
+		"text": "Bonjour à vous, c'est un plaisir de vous avoir ici. Je suis développeur web spécialisé dans la conception d'applications web réactives et robustes, sur mesure qui répondent à vos besoins, en utilisant des technologies telles que React, Next.js et Laravel. Je suis disponible pour des projets de freelance et ouvert à de nouvelles opportunités, n'hésitez pas à me contacter à l'adresse "
 	},
 	"footer": {
 		"ctaText": "Contactez-moi",
@@ -18,15 +18,15 @@
 		"list": [
 			{
 				"title": "Frontend",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"description": "Je conçois les interfaces utilisateur de vos applications web tout en respectant les normes, en optimisant les performances et en assurant la compatibilité avec divers navigateurs et appareils pour une expérience utilisateur fluide et exceptionnelle."
 			},
 			{
 				"title": "Applications web",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"description": "Je crée des applications web réactives et élégantes en utilisant des technologies modernes et populaires. L'UX est aussi importante que l'UI, c'est pourquoi je m'assure que votre application web est accessible."
 			},
 			{
 				"title": "Formations",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"description": "Passionné autant par le développement web que par le partage de connaissances, je propose des formations spéciales en développement frontend, notamment sur React.js. Si vous êtes une école ou une organisation cherchant un formateur, n'hésitez pas à me contacter pour un programme rapide et personnalisé."
 			}
 		]
 	},
