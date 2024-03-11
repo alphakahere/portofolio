@@ -15,7 +15,7 @@ const About = () => {
 						__html: t.raw("title"),
 					}}
 				/>
-				<p className="text-greyText font-normal lg:leading-relaxed lg:text-lg mb-12">
+				<p className="text-greyText font-normal lg:leading-relaxed lg:text-base mb-12">
 					{t("text")}{" "}
 					<Link
 						href="mailto:hello@alphakahere.dev"

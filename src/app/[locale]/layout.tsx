@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 
 type Props = {
 	children: React.ReactNode;
+	modal: React.ReactNode;
 	params: { locale: string };
 };
 const locales = ["en", "fr"];
@@ -22,20 +23,25 @@ export function generateStaticParams() {
 	return locales.map((locale) => ({ locale }));
 }
 
-export default function RootLayout({ children, params: { locale } }: Props) {
+export default function RootLayout({
+	children,
+	modal,
+	params: { locale },
+}: Props) {
 	unstable_setRequestLocale(locale);
 	return (
 		<html lang={locale}>
 			<body
 				className={`${rubik.className} bg-dark snap-y snap-mandatory overflow-x-hidden`}
 			>
-				<div className="px-5 lg:px-20">
+				<div>{modal}</div>
+				{/* <div className="px-5 lg:px-20">
 					<Header />
 					<main className="snap-y snap-mandatory">
 						{children}
 					</main>
 				</div>
-				<Footer />
+				<Footer /> */}
 			</body>
 		</html>
 	);

@@ -1,7 +1,7 @@
 {
 	"header": {
 		"greetings": "Hi, Je suis Alpha Amadou Diallo",
-		"title": "Développeur web travaillant avec JavaScript, TypeScript et PHP",
+		"title": "Développeur web | JavaScript, TypeScript et PHP",
 		"buttonText": "Voir mes projets"
 	},
 	"about": {
@@ -32,24 +32,29 @@
 	},
 	"project": {
 		"title": "Mes projets en vedette",
+		"descriptionTitle": "Description du projet",
+		"buttonDetailText": "Plus de détails",
 		"list": [
 			{
 				"name": "Bricopole",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
-				"github": ""
+				"image": "https://i.imgur.com/vcUMzK2.png",
+				"description": "C'est le site de la société Bricopole SASU qui se positionne comme un partenaire multispécialiste, distributeur de produits et services à forte valeur ajoutée dédiés à la performance des professionnels de l'industrie, de la construction, des mines et des sociétés Oïl & Gas.",
+				"github": "",
+				"siteWeb": "https://bricopole.com/"
 			},
 			{
-				"name": "Bricopole",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
-				"github": ""
+				"name": "Mon Blog",
+				"image": "https://i.imgur.com/gkmgQLJ.png",
+				"description": "C'est mon blog personnel où je partage mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
+				"github": "blog.alphakahere.dev",
+				"siteWeb": "https://blog.alphakahere.dev/"
 			},
 			{
-				"name": "Bricopole",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
-				"github": ""
+				"name": "AEESGS",
+				"image": "https://i.imgur.com/vHxNiUA.png",
+				"description": "Ceci est le site de l’amicale des Élèves, Étudiants et Stagiaires Guinéens au Sénégal (AEESGS) qui est une association apolitique à but non lucratif.",
+				"github": "",
+				"siteWeb": "https://aeesgs.netlify.app/"
 			}
 		]
 	},

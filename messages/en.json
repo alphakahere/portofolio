@@ -32,24 +32,20 @@
 	},
 	"project": {
 		"title": "My Projects Highlight",
+		"descriptionTitle": "Project description",
+		"buttonDetailText": "More Details",
 		"list": [
 			{
 				"name": "Bricopole",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
-				"github": ""
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
 			},
 			{
 				"name": "Bricopole",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
-				"github": ""
+				"description": "It is my personal blog where I share my experiences, tips, tutorials, articles and also projects on web development in general. In particular, all topics related to React and its ecosystem."
 			},
 			{
 				"name": "Bricopole",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
-				"github": ""
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
 			}
 		]
 	},
