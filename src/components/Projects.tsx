@@ -6,12 +6,13 @@ import data from "../../messages/fr.json";
 import { useTranslations } from "next-intl";
 import SectionTitle from "./SectionTitle";
 import { ExternalLink } from "lucide-react";
+import DetailProjectModal from "./DetailProjectModal";
 
 const Projects = () => {
 	const t = useTranslations("project");
 
 	return (
-		<section className="mb-32">
+		<section className="mb-32" id="projects">
 			<div className="relative">
 				<SectionTitle title={t("title")} align="text-center" />
 				<div className="w-24 h-12 bg-grey  absolute left-2/3 -translate-x-1/2  -top-5 filter blur-2xl" />
@@ -28,7 +29,7 @@ const Projects = () => {
 								width={560}
 								height={500}
 								alt={`Image ${item.name}`}
-								className="rounded-lg h-[300px] w-full"
+								className="rounded-lg h-[350px] w-full"
 							/>
 							<div className="overlay text-white bg-dark3 p-5 absolute top-0 left-0 h-full rounded-lg hidden hover:scale-[1.01] overflow-hidden">
 								<div className="flex flex-col justify-between h-full">
@@ -46,8 +47,8 @@ const Projects = () => {
 									</div>
 									<div className="flex justify-between">
 										<Link
-											href={`fr/projects/12374`}
-											className="button_link capitalize"
+											href={`?projects=${item.slug}`}
+											className="button_link py-2 capitalize"
 										>
 											{t(
 												`buttonDetailText`
@@ -58,7 +59,7 @@ const Projects = () => {
 												item.github
 											}
 											target="_blank"
-											className="button_link flex items-center gap-2"
+											className="button_link py-2 flex items-center gap-2"
 										>
 											<span>
 												Github
@@ -75,7 +76,7 @@ const Projects = () => {
 						</div>
 						<div className="flex flex-col px-3">
 							<Link
-								href=""
+								href={`?projects=${item.slug}`}
 								className={`${syne.className} text-xl font-bold leading-8 text-white opacity-80 relative after:w-10 after:h-[1px] after:bg-primary after:absolute after:top-4 after:right-0 hover:underline underline-offset-4 transition-all ease-in duration-500`}
 							>
 								{t(`list.${i}.name`)}
@@ -90,6 +91,7 @@ const Projects = () => {
 					<MoveRight width={14} />
 				</button>
 			</div> */}
+			<DetailProjectModal />
 		</section>
 	);
 };
