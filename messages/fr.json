@@ -66,18 +66,18 @@
 		"list": [
 			{
 				"name": "React",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"image": "https://i.imgur.com/CnwoTZh.png",
+				"description": "React est la bibliothèque Javascript la plus populaire pour construire des applications web dynamiques et élégantes. C'est ma bibliothèque préférée pour construire des interfaces web. J'utilise React depuis maintenant trois ans."
 			},
 			{
 				"name": "Nextjs",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"image": "https://i.imgur.com/tquy3cu.png",
+				"description": "Next.js est un framework React open-source populaire utilisé pour construire des applications web rendues côté serveur (SSR) et générées statiquement (SSG). Je l'utilise dans presque tous mes projets récents."
 			},
 			{
 				"name": "Laravel",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"image": "https://i.imgur.com/wYowhCh.png",
+				"description": "Laravel est l'un des frameworks PHP les plus populaires, je l'utilise sur certains de mes projets récents et aussi pour des clients en fonction de leurs besoins."
 			}
 		]
 	},

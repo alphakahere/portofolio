@@ -54,13 +54,11 @@
 		"list": [
 			{
 				"name": "React",
-				"image": "",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
 			},
 			{
-				"name": "Nextjs",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"name": "Next.js",
+				"description": "Next.js is a popular open-source React framework used to build server-side rendered (SSR) and statically generated (SSG) web applications. I use it in almost all my recent projects, especially if I need to optimize SEO performance."
 			},
 			{
 				"name": "Laravel",
