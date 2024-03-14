@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import { MoveRight } from "lucide-react";
 import { syne } from "@/constants/constants";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const Header = () => {
 	const t = useTranslations("header");
@@ -21,10 +22,13 @@ const Header = () => {
 							{t("title")}
 						</h1>
 					</div>
-					<button className="bg-primary text-xs font-bold flex items-center gap-3 text-grey_light px-5 py-2 rounded-4xl -tracking-tighter uppercase">
+					<Link
+						href="#projects"
+						className="bg-primary text-xs font-bold flex items-center gap-3 text-grey_light px-5 py-2 rounded-4xl -tracking-tighter uppercase"
+					>
 						<span>{t("buttonText")}</span>
 						<MoveRight width={14} />
-					</button>
+					</Link>
 					<div className="w-40 h-32 bg-grey blur-[100px]  absolute right-0 -top-10" />
 				</div>
 			</div>

@@ -22,7 +22,7 @@ const Footer = () => {
 					</a>
 				</div>
 				<div className="flex flex-col justify-center md:flex-row md:justify-between mb-10 text-white gap-4">
-					<div className="flex flex-col items-center">
+					<div className="flex flex-col items-center md:items-start">
 						<h5 className="text-white text-lg lg:text-3xl font-bold uppercase leading-normal mb-3">
 							Alphakahere.dev
 						</h5>

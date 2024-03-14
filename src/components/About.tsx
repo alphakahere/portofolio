@@ -1,6 +1,7 @@
 import { syne } from "@/constants/constants";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -14,7 +15,16 @@ const About = () => {
 						__html: t.raw("title"),
 					}}
 				/>
-				<p className="text mb-12">{t("text")}</p>
+				<p className="text-greyText font-normal lg:leading-relaxed lg:text-base mb-12">
+					{t("text")}{" "}
+					<Link
+						href="mailto:hello@alphakahere.dev"
+						className="text-white font-medium text-base underline underline-offset-4"
+					>
+						hello@alphakahere.dev
+					</Link>
+					.
+				</p>
 				{/* <button className="button">
 					Discover More About Me
 				</button> */}

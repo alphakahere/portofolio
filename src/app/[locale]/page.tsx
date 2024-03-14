@@ -12,9 +12,9 @@ export default function Home() {
 			<Services />
 			<Projects />
 			<Technologies />
-			<LocaleLayout>
+			{/* <LocaleLayout>
 				<Testimonials />
-			</LocaleLayout>
+			</LocaleLayout> */}
 		</>
 	);
 }

@@ -11,6 +11,11 @@ const nextConfig = {
 				hostname: "picsum.photos",
 				pathname: "/**",
 			},
+			{
+				protocol: "https",
+				hostname: "i.imgur.com",
+				pathname: "/**",
+			},
 		],
 	},
 	// i18n: {

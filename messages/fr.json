@@ -1,12 +1,12 @@
 {
 	"header": {
 		"greetings": "Hi, Je suis Alpha Amadou Diallo",
-		"title": "Développeur web travaillant avec JavaScript, TypeScript et PHP",
+		"title": "Développeur web | JavaScript, TypeScript et PHP",
 		"buttonText": "Voir mes projets"
 	},
 	"about": {
-		"title": "Faisons plus ample <br /> connaissance",
-		"text": "Je suis un développeur full stack (React.js & Laravel) qui se concentre sur la création (et occasionnellement la conception) d'expériences numériques exceptionnelles qui sont rapides, accessibles, visuellement attrayantes et réactives. Même si je crée des applications web depuis plus de trois ans, j'aime toujours ça comme si c'était quelque chose de nouveau."
+		"title": "À propos de moi",
+		"text": "Bonjour à vous, c'est un plaisir de vous avoir ici. Je suis développeur web spécialisé dans la conception d'applications web réactives et robustes, sur mesure qui répondent à vos besoins, en utilisant des technologies telles que React, Next.js et Laravel. Je suis disponible pour des projets de freelance et ouvert à de nouvelles opportunités, n'hésitez pas à me contacter à l'adresse "
 	},
 	"footer": {
 		"ctaText": "Contactez-moi",
@@ -18,38 +18,80 @@
 		"list": [
 			{
 				"title": "Frontend",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"description": "Je conçois les interfaces utilisateur de vos applications web tout en respectant les normes, en optimisant les performances et en assurant la compatibilité avec divers navigateurs et appareils pour une expérience utilisateur fluide et exceptionnelle."
 			},
 			{
 				"title": "Applications web",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"description": "Je crée des applications web réactives et élégantes en utilisant des technologies modernes et populaires. L'UX est aussi importante que l'UI, c'est pourquoi je m'assure que votre application web est accessible."
 			},
 			{
 				"title": "Formations",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"description": "Passionné autant par le développement web que par le partage de connaissances, je propose des formations spéciales en développement frontend, notamment sur React.js. Si vous êtes une école ou une organisation cherchant un formateur, n'hésitez pas à me contacter pour un programme rapide et personnalisé."
 			}
 		]
 	},
 	"project": {
 		"title": "Mes projets en vedette",
+		"descriptionTitle": "Description du projet",
+		"buttonDetailText": "Plus de détails",
+		"detailTitle": "Détails du projet",
+		"stackTile": "Technologies utilisées",
+		"contributionTitle": "Contribution",
+		"buttonViewWebsite": "Voir le site",
+		"githubTooltip": "Ce code est propriétaire!",
 		"list": [
 			{
+				"id": 0,
+				"slug": "bricopole",
 				"name": "Bricopole",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
-				"github": ""
+				"image": "https://i.imgur.com/vcUMzK2.png",
+				"except": "Bricopole SASU est une société qui se positionne comme un partenaire multispécialiste, distributeur de produits et services à forte valeur ajoutée dédiés à la performance des professionnels de l'industrie, de la construction, des mines et des sociétés Oïl & Gas.",
+				"description": "<p>Bricopole SASU est une société qui se positionne comme un partenaire multispécialiste, distributeur de produits et services à forte valeur ajoutée dédiés à la performance des professionnels de l'industrie, de la construction, des mines et des sociétés Oïl & Gas.</p><p> Le projet consistait à concevoir et développer une plateforme e-commerce robuste et conviviale, tout en intégrant un espace dédié où les professionnels pouvaient trouver des artisans qualifiés pour répondre à leurs besoins spécifiques.</p>",
+				"github": "",
+				"siteWeb": "https://bricopole.com/",
+				"contribution": "Sur ce projet, j'ai collaboré avec deux autres developpeurs. Mon rôle principale consistait au développement de l'ensemble des interfaces utilisateurs ainsi que la gestion des back offices.",
+				"stack": [
+					"Next.js",
+					"Tailwindcss",
+					"TypeScript",
+					"Redux",
+					"Redux Toolkit",
+					"Nestjs"
+				]
 			},
 			{
-				"name": "Bricopole",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
-				"github": ""
+				"id": 1,
+				"slug": "blog",
+				"name": "Mon Blog",
+				"image": "https://i.imgur.com/gkmgQLJ.png",
+				"except": "C'est mon blog personnel où je partage mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
+				"description": "C'est mon blog personnel où je partage mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
+				"github": "blog.alphakahere.dev",
+				"siteWeb": "https://blog.alphakahere.dev/",
+				"stack": [
+					"Next.js",
+					"Sanity",
+					"TypeScript",
+					"Tailwindcss",
+					"Vercel"
+				]
 			},
 			{
-				"name": "Bricopole",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam.",
-				"github": ""
+				"id": 2,
+				"slug": "aeesgs",
+				"name": "AEESGS",
+				"image": "https://i.imgur.com/vHxNiUA.png",
+				"except": "Ceci est le site de l’amicale des Élèves, Étudiants et Stagiaires Guinéens au Sénégal (AEESGS) qui est une association apolitique à but non lucratif.",
+				"description": "Ceci est le site de l’amicale des Élèves, Étudiants et Stagiaires Guinéens au Sénégal (AEESGS) qui est une association apolitique à but non lucratif.",
+				"github": "",
+				"siteWeb": "https://aeesgs.netlify.app/",
+				"stack": [
+					"React",
+					"TypeScript",
+					"Bootstrap",
+					"Netlify",
+					"Jest"
+				]
 			}
 		]
 	},
@@ -58,33 +100,18 @@
 		"list": [
 			{
 				"name": "React",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"image": "https://i.imgur.com/CnwoTZh.png",
+				"description": "React est la bibliothèque Javascript la plus populaire pour construire des applications web dynamiques et élégantes. C'est ma bibliothèque préférée pour construire des interfaces web. J'utilise React depuis maintenant trois ans."
 			},
 			{
 				"name": "Nextjs",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"image": "https://i.imgur.com/tquy3cu.png",
+				"description": "Next.js est un framework React open-source populaire utilisé pour construire des applications web rendues côté serveur (SSR) et générées statiquement (SSG). Je l'utilise dans presque tous mes projets récents."
 			},
 			{
 				"name": "Laravel",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
-			},
-			{
-				"name": "React",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
-			},
-			{
-				"name": "Nextjs",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
-			},
-			{
-				"name": "Laravel",
-				"image": "",
-				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
+				"image": "https://i.imgur.com/wYowhCh.png",
+				"description": "Laravel est l'un des frameworks PHP les plus populaires, je l'utilise sur certains de mes projets récents et aussi pour des clients en fonction de leurs besoins."
 			}
 		]
 	},
