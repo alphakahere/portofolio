@@ -1,12 +1,13 @@
 import { syne } from "@/constants/constants";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { Suspense } from "react";
 import data from "../../messages/fr.json";
 import { useTranslations } from "next-intl";
 import SectionTitle from "./SectionTitle";
 import { ExternalLink } from "lucide-react";
 import DetailProjectModal from "./DetailProjectModal";
+import LocaleLayout from "./intl/LocaleLayout";
 
 const Projects = () => {
 	const t = useTranslations("project");
@@ -39,9 +40,9 @@ const Projects = () => {
 												"descriptionTitle"
 											)}
 										</h5>
-										<p className="mb-3 text-white opacity-80 text-sm">
+										<p className="mb-3 text-white opacity-80 text-base">
 											{t(
-												`list.${i}.description`
+												`list.${i}.except`
 											)}
 										</p>
 									</div>
@@ -56,14 +57,14 @@ const Projects = () => {
 										</Link>
 										<Link
 											href={
-												item.github
+												item.siteWeb
 											}
 											target="_blank"
 											className="button_link py-2 flex items-center gap-2"
 										>
-											<span>
-												Github
-											</span>
+											{t(
+												"buttonViewWebsite"
+											)}
 											<ExternalLink
 												size={
 													18
@@ -91,7 +92,17 @@ const Projects = () => {
 					<MoveRight width={14} />
 				</button>
 			</div> */}
-			<DetailProjectModal />
+			<LocaleLayout>
+				<Suspense
+					fallback={
+						<div className="animate-pulse">
+							<div className="h-2 bg-slate-200 rounded"></div>
+						</div>
+					}
+				>
+					<DetailProjectModal />
+				</Suspense>
+			</LocaleLayout>
 		</section>
 	);
 };

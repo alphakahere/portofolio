@@ -6,23 +6,25 @@ import data from "../../messages/fr.json";
 import { useEffect, useState } from "react";
 import { ExternalLink, X } from "lucide-react";
 import { syne } from "@/constants/constants";
+import { useTranslations } from "next-intl";
 
 interface Project {
+	id: number;
 	slug: string;
 	name: string;
 	image: string;
 	description: string;
 	github: string;
 	siteWeb: string;
+	stack: string[];
+	contribution?: string;
 }
 
 const DetailProjectModal = () => {
 	const searchParams = useSearchParams();
 	const modal = searchParams.get("projects");
 	const pathname = usePathname();
-	console.log({ modal });
 	const [project, setProject] = useState<Project>();
-	console.log({ project });
 	useEffect(() => {
 		const item = data.project.list.find(
 			(project) => project.slug === modal
@@ -36,6 +38,9 @@ const DetailProjectModal = () => {
 		searchParams.get("");
 		document.body.style.overflow = "auto";
 	};
+
+	const t = useTranslations("project");
+
 	return (
 		<>
 			{modal && (
@@ -53,8 +58,9 @@ const DetailProjectModal = () => {
 											}
 										</h1>
 										<p className="text-greyText text-base">
-											Detail du
-											projet
+											{t(
+												"detailTitle"
+											)}
 										</p>
 									</div>
 									<Link
@@ -73,6 +79,7 @@ const DetailProjectModal = () => {
 										width={500}
 										height={500}
 										className="w-full"
+										loading="lazy"
 									/>
 								</div>
 								<hr className="border-[#949494] mt-5 mb-8" />
@@ -80,25 +87,43 @@ const DetailProjectModal = () => {
 									<h3
 										className={`${syne.className} font-bold text-xl mb-2`}
 									>
-										Project Description
+										{t(
+											"descriptionTitle"
+										)}
 									</h3>
-									<div className="flex gap-3 flex-wrap">
-										<p className="text-white opacity-80 text-base">
-											{
-												project?.description
-											}
-										</p>
-									</div>
+									<div
+										className="flex gap-3 flex-wrap description_text"
+										dangerouslySetInnerHTML={{
+											__html: t.raw(
+												`list.${project?.id}.description`
+											),
+										}}
+									/>
 								</div>
+								{project?.contribution && (
+									<div className="mb-10">
+										<h3
+											className={`${syne.className} font-bold text-xl mb-2`}
+										>
+											{t(
+												"contributionTitle"
+											)}
+										</h3>
+										<div className="flex gap-3 flex-wrap">
+											<p className="text-white opacity-80 text-base">
+												{`list.${project?.id}.contribution`}
+											</p>
+										</div>
+									</div>
+								)}
 								<div>
 									<h3
 										className={`${syne.className} font-bold text-xl mb-5`}
 									>
-										Technologies
-										utilisées
+										{t("stackTile")}
 									</h3>
 									<div className="flex gap-3 flex-wrap">
-										{[...Array(12)].map(
+										{project?.stack.map(
 											(
 												item,
 												index
@@ -109,7 +134,9 @@ const DetailProjectModal = () => {
 													}
 													className="button_link py-1"
 												>
-													React
+													{
+														item
+													}
 												</button>
 											)
 										)}
@@ -117,7 +144,7 @@ const DetailProjectModal = () => {
 								</div>
 								<hr className="border-[#949494] my-8" />
 								{project && (
-									<div className="flex justify-between">
+									<div className="flex justify-between items-center">
 										<Link
 											// @ts-ignore
 											href={
@@ -125,30 +152,62 @@ const DetailProjectModal = () => {
 											}
 											className="button_link py-2 flex items-center gap-2"
 										>
-											Voir le site
+											{t(
+												"buttonViewWebsite"
+											)}
 											<ExternalLink
 												size={
 													18
 												}
 											/>
 										</Link>
-										<Link
-											// @ts-ignore
-											href={
-												project?.github
-											}
-											target="_blank"
-											className="button_link py-2 flex items-center gap-2"
-										>
-											<span>
-												Github
-											</span>
-											<ExternalLink
-												size={
-													18
+										{project.github ? (
+											<Link
+												// @ts-ignore
+												href={
+													project?.github
 												}
-											/>
-										</Link>
+												target="_blank"
+												className="button_link py-2 flex items-center gap-2"
+											>
+												<span>
+													Github
+												</span>
+												<ExternalLink
+													size={
+														18
+													}
+												/>
+											</Link>
+										) : (
+											<>
+												<div className="group relative flex justify-center">
+													<button
+														className="button_link py-2 flex items-center gap-2 pointer-events-none"
+														disabled={
+															true
+														}
+														title="Ce code est propriétaire"
+													>
+														<span>
+															Github
+														</span>
+														<ExternalLink
+															size={
+																18
+															}
+														/>
+													</button>
+													<span className="absolute -top-8 -left-10 scale-0 transition-all rounded bg-dark3 p-2 text-xs text-white group-hover:scale-100 whitespace-nowrap">
+														✨
+														Ce
+														code
+														est
+														propriétaire!
+													</span>
+												</div>
+											</>
+										)}
 									</div>
 								)}
 							</div>

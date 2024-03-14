@@ -34,30 +34,64 @@
 		"title": "Mes projets en vedette",
 		"descriptionTitle": "Description du projet",
 		"buttonDetailText": "Plus de détails",
+		"detailTitle": "Détails du projet",
+		"stackTile": "Technologies utilisées",
+		"contributionTitle": "Contribution",
+		"buttonViewWebsite": "Voir le site",
+		"githubTooltip": "Ce code est propriétaire!",
 		"list": [
 			{
+				"id": 0,
 				"slug": "bricopole",
 				"name": "Bricopole",
 				"image": "https://i.imgur.com/vcUMzK2.png",
-				"description": "C'est le site de la société Bricopole SASU qui se positionne comme un partenaire multispécialiste, distributeur de produits et services à forte valeur ajoutée dédiés à la performance des professionnels de l'industrie, de la construction, des mines et des sociétés Oïl & Gas.",
+				"except": "Bricopole SASU est une société qui se positionne comme un partenaire multispécialiste, distributeur de produits et services à forte valeur ajoutée dédiés à la performance des professionnels de l'industrie, de la construction, des mines et des sociétés Oïl & Gas.",
+				"description": "<p>Bricopole SASU est une société qui se positionne comme un partenaire multispécialiste, distributeur de produits et services à forte valeur ajoutée dédiés à la performance des professionnels de l'industrie, de la construction, des mines et des sociétés Oïl & Gas.</p><p> Le projet consistait à concevoir et développer une plateforme e-commerce robuste et conviviale, tout en intégrant un espace dédié où les professionnels pouvaient trouver des artisans qualifiés pour répondre à leurs besoins spécifiques.</p>",
 				"github": "",
-				"siteWeb": "https://bricopole.com/"
+				"siteWeb": "https://bricopole.com/",
+				"contribution": "Sur ce projet, j'ai collaboré avec deux autres developpeurs. Mon rôle principale consistait au développement de l'ensemble des interfaces utilisateurs ainsi que la gestion des back offices.",
+				"stack": [
+					"Next.js",
+					"Tailwindcss",
+					"TypeScript",
+					"Redux",
+					"Redux Toolkit",
+					"Nestjs"
+				]
 			},
 			{
+				"id": 1,
 				"slug": "blog",
 				"name": "Mon Blog",
 				"image": "https://i.imgur.com/gkmgQLJ.png",
+				"except": "C'est mon blog personnel où je partage mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
 				"description": "C'est mon blog personnel où je partage mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
 				"github": "blog.alphakahere.dev",
-				"siteWeb": "https://blog.alphakahere.dev/"
+				"siteWeb": "https://blog.alphakahere.dev/",
+				"stack": [
+					"Next.js",
+					"Sanity",
+					"TypeScript",
+					"Tailwindcss",
+					"Vercel"
+				]
 			},
 			{
+				"id": 2,
 				"slug": "aeesgs",
 				"name": "AEESGS",
 				"image": "https://i.imgur.com/vHxNiUA.png",
+				"except": "Ceci est le site de l’amicale des Élèves, Étudiants et Stagiaires Guinéens au Sénégal (AEESGS) qui est une association apolitique à but non lucratif.",
 				"description": "Ceci est le site de l’amicale des Élèves, Étudiants et Stagiaires Guinéens au Sénégal (AEESGS) qui est une association apolitique à but non lucratif.",
 				"github": "",
-				"siteWeb": "https://aeesgs.netlify.app/"
+				"siteWeb": "https://aeesgs.netlify.app/",
+				"stack": [
+					"React",
+					"TypeScript",
+					"Bootstrap",
+					"Netlify",
+					"Jest"
+				]
 			}
 		]
 	},

@@ -17,8 +17,8 @@ const Services = () => {
 						>
 							{t(`list.${i}.title`)}
 						</h5>
-						<div className="text-sm leading-6 text-justify text-greyText">
-							<p className="text text-sm">
+						<div className="leading-6 text-justify text-greyText">
+							<p className="text text-base">
 								{t(`list.${i}.description`)}
 							</p>
 						</div>

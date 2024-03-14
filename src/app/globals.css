@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	transition: ease all 1000ms;
+}
+
 .container {
     @apply  px-2 lg:px-5 2xl:px-10 mx-auto overflow-x-hidden;
 }
@@ -14,6 +18,9 @@
 }
 .text {
 	@apply text-greyText font-normal leading-normal;
+}
+.description_text p{
+	@apply text-white opacity-80 text-base;
 }
 
 .vector {
