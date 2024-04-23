@@ -73,7 +73,8 @@
 					"Sanity",
 					"TypeScript",
 					"Tailwindcss",
-					"Vercel"
+					"Vercel",
+					"Vercel analytics"
 				]
 			},
 			{
