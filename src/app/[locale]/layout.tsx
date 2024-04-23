@@ -4,6 +4,7 @@ import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/react";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default function RootLayout({ children, params: { locale } }: Props) {
 					</main>
 				</div>
 				<Footer />
+				<Analytics />
 			</body>
 		</html>
 	);
