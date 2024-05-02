@@ -15,10 +15,10 @@ const Footer = () => {
 						{t("ctaText")}
 					</p>
 					<a
-						href="mailto:hello.alphakahere.dev"
+						href="mailto:hello@alphakahere.dev"
 						className=" text-2xl lg:text-5xl text-white text-center font-bold underline underline-offset-8"
 					>
-						hello.alphakahere.dev
+						hello@alphakahere.dev
 					</a>
 				</div>
 				<div className="flex flex-col justify-center md:flex-row md:justify-between mb-10 text-white gap-4">
