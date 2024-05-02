@@ -111,7 +111,9 @@ const DetailProjectModal = () => {
 										</h3>
 										<div className="flex gap-3 flex-wrap">
 											<p className="text-white opacity-80 text-base">
-												{`list.${project?.id}.contribution`}
+												{t(
+													`list.${project?.id}.contribution`
+												)}
 											</p>
 										</div>
 									</div>

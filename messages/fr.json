@@ -49,7 +49,7 @@
 				"description": "<p>Bricopole SASU est une société qui se positionne comme un partenaire multispécialiste, distributeur de produits et services à forte valeur ajoutée dédiés à la performance des professionnels de l'industrie, de la construction, des mines et des sociétés Oïl & Gas.</p><p> Le projet consistait à concevoir et développer une plateforme e-commerce robuste et conviviale, tout en intégrant un espace dédié où les professionnels pouvaient trouver des artisans qualifiés pour répondre à leurs besoins spécifiques.</p>",
 				"github": "",
 				"siteWeb": "https://bricopole.com/",
-				"contribution": "Sur ce projet, j'ai collaboré avec deux autres developpeurs. Mon rôle principale consistait au développement de l'ensemble des interfaces utilisateurs ainsi que la gestion des back offices.",
+				"contribution": "Sur ce projet, j'ai travaillé avec deux autres développeurs où mon rôle principal était de développer toutes les interfaces utilisateurs et de gérer les back-offices.",
 				"stack": [
 					"Next.js",
 					"Tailwindcss",
