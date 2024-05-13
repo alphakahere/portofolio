@@ -47,7 +47,7 @@ const Footer = () => {
 								</Link>
 							</li>
 							<li className="bg-[#C4C4C4] w-8 h-8 flex items-center justify-center rounded-sm">
-								<Link href="">
+								<Link href="https://github.com/alphakahere">
 									<Github
 										absoluteStrokeWidth
 										color="#131313"
