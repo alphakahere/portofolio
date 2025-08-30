@@ -7,7 +7,7 @@ import { syne } from "@/constants/constants";
 const Services = () => {
 	const t = useTranslations("service");
 	return (
-		<section className="mb-32 relative">
+		<section className="mb-36 relative container mx-auto">
 			<SectionTitle title={t("title")} />
 			<div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 				{data.service.list.map((item, i) => (

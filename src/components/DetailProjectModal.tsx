@@ -46,21 +46,17 @@ const DetailProjectModal = () => {
 			{modal && (
 				<dialog className="w-full bg-black h-full bg-opacity-50 z-50 overflow-x-hidden overflow-hidden backdrop-blur fixed top-0 left-0 flex justify-center items-center pt-10 pb-20">
 					<div className="w-auto my-6 mx-auto max-w-lg md:min-w-[40rem] min-w-[98%] xl:min-w-[50rem]">
-						<div className="bg-dark p-8 text-white rounded h-[94vh] overflow-y-auto custom-scrollbar">
+						<div className="bg-dark p-8 text-white rounded h-[94vh] overflow-y-auto custom-scrollbar shadow-2xl">
 							<div className="">
 								<div className="flex justify-between items-start">
 									<div>
 										<h1
 											className={`${syne.className} font-bold text-3xl mb-2`}
 										>
-											{
-												project?.name
-											}
+											{project?.name}
 										</h1>
 										<p className="text-greyText text-base">
-											{t(
-												"detailTitle"
-											)}
+											{t("detailTitle")}
 										</p>
 									</div>
 									<Link
@@ -87,9 +83,7 @@ const DetailProjectModal = () => {
 									<h3
 										className={`${syne.className} font-bold text-xl mb-2`}
 									>
-										{t(
-											"descriptionTitle"
-										)}
+										{t("descriptionTitle")}
 									</h3>
 									<div
 										className="flex gap-3 flex-wrap description_text"
@@ -105,9 +99,7 @@ const DetailProjectModal = () => {
 										<h3
 											className={`${syne.className} font-bold text-xl mb-2`}
 										>
-											{t(
-												"contributionTitle"
-											)}
+											{t("contributionTitle")}
 										</h3>
 										<div className="flex gap-3 flex-wrap">
 											<p className="text-white opacity-80 text-base">
@@ -125,23 +117,14 @@ const DetailProjectModal = () => {
 										{t("stackTile")}
 									</h3>
 									<div className="flex gap-3 flex-wrap">
-										{project?.stack.map(
-											(
-												item,
-												index
-											) => (
-												<button
-													key={
-														index
-													}
-													className="button_link py-1"
-												>
-													{
-														item
-													}
-												</button>
-											)
-										)}
+										{project?.stack.map((item, index) => (
+											<button
+												key={index}
+												className="button_link py-1"
+											>
+												{item}
+											</button>
+										))}
 									</div>
 								</div>
 								<hr className="border-[#949494] my-8" />
@@ -149,62 +132,39 @@ const DetailProjectModal = () => {
 									<div className="flex justify-between items-center">
 										<Link
 											// @ts-ignore
-											href={
-												project?.siteWeb
-											}
+											href={project?.siteWeb}
 											className="button_link py-2 flex items-center gap-2"
 										>
-											{t(
-												"buttonViewWebsite"
-											)}
-											<ExternalLink
-												size={
-													18
-												}
-											/>
+											{t("buttonViewWebsite")}
+											<ExternalLink size={18} />
 										</Link>
 										{project.github ? (
 											<Link
 												// @ts-ignore
-												href={
-													project?.github
-												}
+												href={project?.github}
 												target="_blank"
 												className="button_link py-2 flex items-center gap-2"
 											>
-												<span>
-													Github
-												</span>
-												<ExternalLink
-													size={
-														18
-													}
-												/>
+												<span>Github</span>
+												<ExternalLink size={18} />
 											</Link>
 										) : (
 											<>
 												<div className="group relative flex justify-center">
 													<button
 														className="button_link py-2 flex items-center gap-2 pointer-events-none"
-														disabled={
-															true
-														}
+														disabled={true}
 														title="Ce code est propriétaire"
 													>
 														<span>
 															Github
 														</span>
 														<ExternalLink
-															size={
-																18
-															}
+															size={18}
 														/>
 													</button>
 													<span className="absolute -top-8 -left-10 scale-0 transition-all rounded bg-dark3 p-2 text-xs text-white group-hover:scale-100 whitespace-nowrap">
-														✨
-														Ce
-														code
-														est
+														✨ Ce code est
 														propriétaire!
 													</span>
 												</div>

@@ -10,7 +10,11 @@ const rubik = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "alphakahere.dev",
-	description: "portofolio",
+	description:
+		"Alpha Amadou Diallo - Full Stack Developer | Javascript | React | Next.js | Node.js | Express",
+	icons: {
+		icon: "/favicon.png",
+	},
 };
 
 type Props = {
@@ -32,9 +36,7 @@ export default function RootLayout({ children, params: { locale } }: Props) {
 			>
 				<div className="px-5 lg:px-20">
 					<Header />
-					<main className="snap-y snap-mandatory">
-						{children}
-					</main>
+					<main className="snap-y snap-mandatory">{children}</main>
 				</div>
 				<Footer />
 				<Analytics />

@@ -1,6 +1,5 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
-import react from "../../public/images/react.svg";
 import Image from "next/image";
 import data from "../../messages/fr.json";
 import { useTranslations } from "next-intl";
@@ -9,7 +8,7 @@ import { syne } from "@/constants/constants";
 const Technologies = () => {
 	const t = useTranslations("technologie");
 	return (
-		<section className="mb-20">
+		<section className="mb-20 container mx-auto">
 			<SectionTitle title={t("title")} />
 			<div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
 				{data.technologie.list.map((item, i) => (

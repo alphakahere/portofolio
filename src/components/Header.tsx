@@ -8,7 +8,7 @@ import Link from "next/link";
 const Header = () => {
 	const t = useTranslations("header");
 	return (
-		<header className="mb-24 pt-5">
+		<header className="mb-24 pt-5 container mx-auto">
 			<Navbar />
 			<div className="px-5 md:px-20 lg:px-52">
 				<div className="flex flex-col items-center space-y-16 relative text-white">
