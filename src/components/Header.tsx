@@ -8,8 +8,10 @@ import Link from "next/link";
 const Header = () => {
 	const t = useTranslations("header");
 	return (
-		<header className="mb-24 pt-5 container mx-auto">
-			<Navbar />
+		<header className="mb-24">
+			<div className="container mx-auto pt-5">
+				<Navbar />
+			</div>
 			<div className="px-5 md:px-20 lg:px-52">
 				<div className="flex flex-col items-center space-y-16 relative text-white">
 					<div className="flex flex-col items-center space-y-4">
@@ -17,7 +19,7 @@ const Header = () => {
 							{t("greetings")} 👋
 						</p>
 						<h1
-							className={`${syne.className} title-text text-2xl lg:text-6xl leading-snug lg:leading-normal text-center`}
+							className={`${syne.className} title-text text-2xl lg:text-3xl 2xl:text-6xl leading-snug lg:leading-normal 2xl:leading-normal text-center`}
 						>
 							{t("title")}
 						</h1>

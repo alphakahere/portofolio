@@ -42,25 +42,24 @@
 		"list": [
 			{
 				"id": 0,
-				"slug": "bricopole",
-				"name": "Bricopole",
-				"except": "Bricopole SASU is a multi-specialist partner and distributor of high value-added products and services dedicated to the performance of professionals in industry, construction, mining and Oil & Gas.",
-				"description": "<p>Bricopole SASU is a multi-specialist partner and distributor of high value-added products and services dedicated to the performance of professionals in industry, construction, mining and Oil & Gas.</p><p>The project involved designing and developing a robust, user-friendly e-commerce platform, while integrating a dedicated space where professionals could find qualified craftsmen to meet their specific needs.</p>",
-				"contribution": "On this project, I worked with two other developers where my main role was to develop all the user interfaces and manage the back-offices."
+				"slug": "scanifood",
+				"name": "Scanifood",
+				"except": "A smart solution that helps restaurants create digital menus with QR codes. No more printing paper menus - just scan and order!",
+				"description": "A smart solution that helps restaurants create digital menus with QR codes. No more printing paper menus - just scan and order!"
 			},
 			{
-				"id": 0,
+				"id": 1,
+				"slug": "afimey-store",
+				"name": "Afimey Store",
+				"except": "Afimey Store is an e-commerce platform that allows customers to order products online.",
+				"description": "Afimey Store is an e-commerce platform that allows customers to order products online."
+			},
+			{
+				"id": 2,
 				"slug": "my-blog",
 				"name": "My Blog",
 				"except": "It is my personal blog where I share my experiences, tips, tutorials, articles and also projects on web development in general. In particular, all topics related to React and its ecosystem.",
 				"description": "It is my personal blog where I share my experiences, tips, tutorials, articles and also projects on web development in general. In particular, all topics related to React and its ecosystem."
-			},
-			{
-				"id": 0,
-				"slug": "aeesgs",
-				"name": "AEESGS",
-				"except": "This is the website of the Association of Guinean Students and Interns in Senegal (AEESGS), which is a non-profit, non-political organization.",
-				"description": "This is the website of the Association of Guinean Students and Interns in Senegal (AEESGS), which is a non-profit, non-political organization."
 			}
 		]
 	},

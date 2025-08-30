@@ -42,25 +42,36 @@
 		"list": [
 			{
 				"id": 0,
-				"slug": "bricopole",
-				"name": "Bricopole",
-				"image": "https://i.imgur.com/vcUMzK2.png",
-				"except": "Bricopole SASU est une société qui se positionne comme un partenaire multispécialiste, distributeur de produits et services à forte valeur ajoutée dédiés à la performance des professionnels de l'industrie, de la construction, des mines et des sociétés Oïl & Gas.",
-				"description": "<p>Bricopole SASU est une société qui se positionne comme un partenaire multispécialiste, distributeur de produits et services à forte valeur ajoutée dédiés à la performance des professionnels de l'industrie, de la construction, des mines et des sociétés Oïl & Gas.</p><p> Le projet consistait à concevoir et développer une plateforme e-commerce robuste et conviviale, tout en intégrant un espace dédié où les professionnels pouvaient trouver des artisans qualifiés pour répondre à leurs besoins spécifiques.</p>",
+				"slug": "scanifood",
+				"name": "Scanifood",
+				"image": "/images/projects/dashboard.webp",
+				"except": "Une solution intelligente qui permet aux restaurants de créer des menus numériques avec des codes QR. Plus besoin d'imprimer des menus en papier - scannez et commandez simplement!",
+				"description": "Une solution intelligente qui permet aux restaurants de créer des menus numériques avec des codes QR. Plus besoin d'imprimer des menus en papier - scannez et commandez simplement!",
 				"github": "",
-				"siteWeb": "https://bricopole.com/",
-				"contribution": "Sur ce projet, j'ai travaillé avec deux autres développeurs où mon rôle principal était de développer toutes les interfaces utilisateurs et de gérer les back-offices.",
-				"stack": [
-					"Next.js",
-					"Tailwindcss",
-					"TypeScript",
-					"Redux",
-					"Redux Toolkit",
-					"Nestjs"
-				]
+				"siteWeb": "https://scanifood.com",
+				"stack": ["React", "Next.js", "Tailwindcss", "TypeScript", "Redux", "Redux Toolkit"]
 			},
 			{
 				"id": 1,
+				"slug": "afimey-store",
+				"name": "Afimey Store",
+				"image": "/images/projects/afimey.png",
+				"except": "Afimey Store est une plateforme e-commerce qui permet aux clients de commander des produits en ligne.",
+				"description": "Afimey Store est une plateforme e-commerce qui permet aux clients de commander des produits en ligne.",
+				"github": "",
+				"siteWeb": "https://afimey-store.com/",
+				"contribution": "Sur ce projet, j'ai travaillé avec deux autres développeurs où mon rôle principal était de développer toutes les interfaces utilisateurs et de gérer les back-offices.",
+				"stack": [
+					"React",
+					"Vite",
+					"Tailwindcss",
+					"TypeScript",
+					"tanstack router",
+					"tanstack query"
+				]
+			},
+			{
+				"id": 2,
 				"slug": "blog",
 				"name": "Mon Blog",
 				"image": "https://i.imgur.com/gkmgQLJ.png",
@@ -75,23 +86,6 @@
 					"Tailwindcss",
 					"Vercel",
 					"Vercel analytics"
-				]
-			},
-			{
-				"id": 2,
-				"slug": "aeesgs",
-				"name": "AEESGS",
-				"image": "https://i.imgur.com/vHxNiUA.png",
-				"except": "Ceci est le site de l’amicale des Élèves, Étudiants et Stagiaires Guinéens au Sénégal (AEESGS) qui est une association apolitique à but non lucratif.",
-				"description": "Ceci est le site de l’amicale des Élèves, Étudiants et Stagiaires Guinéens au Sénégal (AEESGS) qui est une association apolitique à but non lucratif.",
-				"github": "",
-				"siteWeb": "https://aeesgs.netlify.app/",
-				"stack": [
-					"React",
-					"TypeScript",
-					"Bootstrap",
-					"Netlify",
-					"Jest"
 				]
 			}
 		]

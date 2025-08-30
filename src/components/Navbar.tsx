@@ -8,10 +8,7 @@ const Navbar = () => {
 	return (
 		<nav className="flex items-center justify-between gap-4 mb-24 md:mb-28">
 			<div className="flex items-center gap-2">
-				<Link
-					href="/"
-					className="text-white text-2xl leading-8"
-				>
+				<Link href="/" className="text-white text-xl lg:text-2xl leading-8">
 					ALPHAKAHERE.DEV
 				</Link>
 			</div>
