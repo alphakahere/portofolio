@@ -18,7 +18,7 @@ const Services = () => {
 		<section className="mb-36 relative container mx-auto">
 			<SectionTitle title={t("title")} />
 			<div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-				{data.service.list.map((item, i) => (
+				{data.service.list.map((_item, i) => (
 					<div
 						key={i}
 						className="group relative bg-dark3 rounded-2xl p-8 border border-dark3 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1.5"

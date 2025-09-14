@@ -28,7 +28,7 @@ const Projects = () => {
 									width={560}
 									height={500}
 									alt={`Image ${item.name}`}
-									className="rounded-lg h-[350px] w-full object-fill"
+									className="rounded-lg h-[300px] w-full object-fill"
 								/>
 								<div className="overlay text-white bg-dark3 p-5 absolute top-0 left-0 h-full rounded-lg hidden hover:scale-[1.01] overflow-hidden">
 									<div className="flex flex-col justify-between h-full">

@@ -16,7 +16,7 @@ const About = () => {
 							__html: t.raw("title"),
 						}}
 					/>
-					<p className="text-greyText font-normal lg:leading-relaxed lg:text-base xl:text-lg mb-12">
+					<p className="text-greyText font-normal lg:leading-relaxed lg:text-base xl:text-lg mb-8">
 						{t("text")}
 					</p>
 					<a
