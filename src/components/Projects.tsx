@@ -13,7 +13,7 @@ const Projects = () => {
 	const t = useTranslations("project");
 
 	return (
-		<section className="mb-32" id="projects">
+		<section className="lg:mb-32" id="projects">
 			<div className="relative">
 				<SectionTitle title={t("title")} align="text-center" />
 				<div className="w-24 h-12 bg-grey  absolute left-2/3 -translate-x-1/2  -top-5 filter blur-2xl" />
@@ -28,7 +28,7 @@ const Projects = () => {
 									width={560}
 									height={500}
 									alt={`Image ${item.name}`}
-									className="rounded-lg h-[300px] w-full object-fill"
+									className="rounded-lg h-[300px] md:h-[350px] w-full object-cover md:object-fill"
 								/>
 								<div className="overlay text-white bg-dark3 p-5 absolute top-0 left-0 h-full rounded-lg hidden hover:scale-[1.01] overflow-hidden">
 									<div className="flex flex-col justify-between h-full">
