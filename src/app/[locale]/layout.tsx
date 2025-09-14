@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Rubik } from "next/font/google";
+import { Lato, Rubik } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { unstable_setRequestLocale } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/react";
 
-const rubik = Rubik({ subsets: ["latin"] });
+// const rubik = Rubik({ subsets: ["latin"] });
+const lato = Lato({ subsets: ["latin"], weight: ["100", "300", "400", "700", "900"] });
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://alphakahere.dev"),
@@ -107,7 +108,7 @@ export default function RootLayout({ children, params: { locale } }: Props) {
 	return (
 		<html lang={locale}>
 			<body
-				className={`${rubik.className} bg-dark snap-y snap-mandatory overflow-x-hidden`}
+				className={`${lato.className} bg-dark snap-y snap-mandatory overflow-x-hidden`}
 			>
 				<div className="px-5 lg:px-20">
 					<Header />

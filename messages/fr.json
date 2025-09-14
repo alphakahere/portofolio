@@ -1,12 +1,13 @@
 {
 	"header": {
 		"greetings": "Hi, Je suis Alpha Amadou Diallo",
-		"title": "Développeur web | JavaScript, TypeScript et PHP",
+		"title": "Développeur web FullStack JavaScript et TypeScript ",
 		"buttonText": "Voir mes projets"
 	},
 	"about": {
 		"title": "À propos de moi",
-		"text": "Bonjour à vous, c'est un plaisir de vous avoir ici. Je suis développeur web spécialisé dans la conception d'applications web réactives et robustes, sur mesure qui répondent à vos besoins, en utilisant des technologies telles que React, Next.js et Laravel. Je suis disponible pour des projets de freelance et ouvert à de nouvelles opportunités, n'hésitez pas à me contacter à l'adresse "
+		"text": "Je suis un développeur fullstack React.js, Next.js & Node.js avec plus de 4 ans d'expérience, axé sur la création (et parfois la conception) d'expériences numériques exceptionnelles qui sont rapides, accessibles, visuellement attrayantes et responsives. Bien que je développe des applications web depuis plus de quatre ans, j'aime toujours cela comme si c'était quelque chose de nouveau.",
+		"button": "Me contacter"
 	},
 	"footer": {
 		"ctaText": "Contactez-moi",
@@ -17,16 +18,16 @@
 		"title": "Comment puis-je vous aider",
 		"list": [
 			{
-				"title": "Frontend",
-				"description": "Je conçois les interfaces utilisateur de vos applications web tout en respectant les normes, en optimisant les performances et en assurant la compatibilité avec divers navigateurs et appareils pour une expérience utilisateur fluide et exceptionnelle."
+				"title": "Développement Frontend",
+				"description": "Je crée des interfaces utilisateur modernes et intuitives en respectant les standards web, optimisant les performances et garantissant la compatibilité cross-browser pour une expérience utilisateur exceptionnelle."
 			},
 			{
-				"title": "Applications web",
-				"description": "Je crée des applications web réactives et élégantes en utilisant des technologies modernes et populaires. L'UX est aussi importante que l'UI, c'est pourquoi je m'assure que votre application web est accessible."
+				"title": "Applications Web",
+				"description": "Je développe des applications web complètes (frontend + backend) réactives et performantes avec React.js, Next.js et Express.js, en optimisant l'UX/UI et en assurant l'accessibilité sur tous les appareils."
 			},
 			{
-				"title": "Formations",
-				"description": "Passionné autant par le développement web que par le partage de connaissances, je propose des formations spéciales en développement frontend, notamment sur React.js. Si vous êtes une école ou une organisation cherchant un formateur, n'hésitez pas à me contacter pour un programme rapide et personnalisé."
+				"title": "Formation & Mentoring",
+				"description": "Passionné par la transmission, je propose des formations personnalisées en développement web moderne (React.js, JavaScript ES6+) pour écoles, entreprises et développeurs souhaitant monter en compétences."
 			}
 		]
 	},
@@ -49,7 +50,14 @@
 				"description": "Une solution intelligente qui permet aux restaurants de créer des menus numériques avec des codes QR. Plus besoin d'imprimer des menus en papier - scannez et commandez simplement!",
 				"github": "",
 				"siteWeb": "https://scanifood.com",
-				"stack": ["React", "Next.js", "Tailwindcss", "TypeScript", "Redux", "Redux Toolkit"]
+				"stack": [
+					"React",
+					"Next.js",
+					"Tailwindcss",
+					"TypeScript",
+					"Redux",
+					"Redux Toolkit"
+				]
 			},
 			{
 				"id": 1,
@@ -86,6 +94,35 @@
 					"Tailwindcss",
 					"Vercel",
 					"Vercel analytics"
+				]
+			},
+			{
+				"id": 3,
+				"slug": "lvg-smart",
+				"name": "LVG Smart",
+				"image": "/images/projects/lvg.png",
+				"except": "Mon portfolio est un projet qui me permet de partager mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
+				"description": "Mon portfolio est un projet qui me permet de partager mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
+				"github": "",
+				"siteWeb": "https://lvg-smart.com/",
+				"stack": ["Next.js", "Tailwindcss", "TypeScript", "Sanity", "Vercel"]
+			},
+			{
+				"id": 4,
+				"slug": "dream-company",
+				"name": "Dream Company",
+				"image": "/images/projects/dream-company.png",
+				"except": "Mon portfolio est un projet qui me permet de partager mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
+				"description": "Mon portfolio est un projet qui me permet de partager mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
+				"github": "",
+				"siteWeb": "https://dream-company-app-nextjs.vercel.app/",
+				"stack": [
+					"Next.js",
+					"Tailwindcss",
+					"TypeScript",
+					"Supabase",
+					"Zod",
+					"Vercel"
 				]
 			}
 		]

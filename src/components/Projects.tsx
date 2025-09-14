@@ -22,13 +22,13 @@ const Projects = () => {
 				<div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 mb-10">
 					{data.project.list.map((item, i) => (
 						<div className="project__card_item mb-8 relative" key={i}>
-							<div className="mb-3 relative transition-all duration-300 hover:scale-[1.01]">
+							<div className="mb-3 relative transition-all duration-500 hover:scale-[1.01] rounded-lg">
 								<Image
 									src={item.image}
 									width={560}
 									height={500}
 									alt={`Image ${item.name}`}
-									className="rounded-lg h-[350px] w-full"
+									className="rounded-lg h-[350px] w-full object-fill"
 								/>
 								<div className="overlay text-white bg-dark3 p-5 absolute top-0 left-0 h-full rounded-lg hidden hover:scale-[1.01] overflow-hidden">
 									<div className="flex flex-col justify-between h-full">

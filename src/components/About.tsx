@@ -16,19 +16,15 @@ const About = () => {
 							__html: t.raw("title"),
 						}}
 					/>
-					<p className="text-greyText font-normal lg:leading-relaxed lg:text-base mb-12">
-						{t("text")}{" "}
-						<Link
-							href="mailto:hello@alphakahere.dev"
-							className="text-white font-medium text-base underline underline-offset-4"
-						>
-							hello@alphakahere.dev
-						</Link>
-						.
+					<p className="text-greyText font-normal lg:leading-relaxed lg:text-base xl:text-lg mb-12">
+						{t("text")}
 					</p>
-					{/* <button className="button">
-					Discover More About Me
-				</button> */}
+					<a
+						href="mailto:hello@alphakahere.dev"
+						className="button w-min whitespace-nowrap"
+					>
+						{t("button")}
+					</a>
 				</div>
 				<div className="lg:w-1/2 flex justify-end">
 					<div className="relative">
