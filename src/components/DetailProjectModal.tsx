@@ -130,24 +130,27 @@ const DetailProjectModal = () => {
 								<hr className="border-[#949494] my-8" />
 								{project && (
 									<div className="flex justify-between items-center">
-										<Link
+										<a
 											// @ts-ignore
 											href={project?.siteWeb}
 											className="button_link py-2 flex items-center gap-2"
+											rel="noopener noreferrer"
+											target="_blank"
 										>
 											{t("buttonViewWebsite")}
 											<ExternalLink size={18} />
-										</Link>
+										</a>
 										{project.github ? (
-											<Link
+											<a
 												// @ts-ignore
 												href={project?.github}
 												target="_blank"
 												className="button_link py-2 flex items-center gap-2"
+												rel="noopener noreferrer"
 											>
 												<span>Github</span>
 												<ExternalLink size={18} />
-											</Link>
+											</a>
 										) : (
 											<>
 												<div className="group relative flex justify-center">

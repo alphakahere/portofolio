@@ -23,7 +23,7 @@
 			},
 			{
 				"title": "Web Applications",
-				"description": "I develop complete web applications (frontend + backend) that are responsive and performant using React.js, Next.js, and Express.js, while optimizing UX/UI and ensuring accessibility across all devices."
+				"description": "I develop complete web applications (frontend + backend) that are responsive and performant using React.js, Next.js, and Node.js, while optimizing UX/UI and ensuring accessibility across all devices."
 			},
 			{
 				"title": "Training & Mentoring",
@@ -45,8 +45,8 @@
 				"id": 0,
 				"slug": "scanifood",
 				"name": "Scanifood",
-				"except": "A smart solution that helps restaurants create digital menus with QR codes. No more printing paper menus - just scan and order!",
-				"description": "A smart solution that helps restaurants create digital menus with QR codes. No more printing paper menus - just scan and order!"
+				"except": "ScaniFood is a SaaS solution that enables restaurants to create and share digital menus via QR codes with real-time order notifications.",
+				"description": "ScaniFood is a SaaS solution that enables restaurants to create and share digital menus via QR codes. The platform provides real-time order notifications through Mercure, instantly informing cashiers, kitchen staff, and managers when orders are placed, ensuring smooth restaurant operations. The architecture supports multi-tenant restaurant management with role-based access control for different staff positions."
 			},
 			{
 				"id": 1,
@@ -59,8 +59,22 @@
 				"id": 2,
 				"slug": "my-blog",
 				"name": "My Blog",
-				"except": "It is my personal blog where I share my experiences, tips, tutorials, articles and also projects on web development in general. In particular, all topics related to React and its ecosystem.",
-				"description": "It is my personal blog where I share my experiences, tips, tutorials, articles and also projects on web development in general. In particular, all topics related to React and its ecosystem."
+				"except": "Personal blog where I publish articles and tutorials focused on frontend development, particularly React and its ecosystem.",
+				"description": "Personal blog where I publish articles and tutorials focused on frontend development, particularly React and its ecosystem. I share my experiences, tips, and projects in the field of web development."
+			},
+			{
+				"id": 3,
+				"slug": "lvg-smart",
+				"name": "LVG Smart",
+				"except": "Showcase website for LVG Smart, a Guinea-based company specializing in sanitation work.",
+				"description": "Showcase website for LVG Smart, a Guinea-based company specializing in sanitation work, providing quality services for a clean and secure environment."
+			},
+			{
+				"id": 4,
+				"slug": "dream-company",
+				"name": "Dream Company",
+				"except": "A modern platform that facilitates searching, renting, and buying real estate with an integrated furniture catalog.",
+				"description": "A modern and user-friendly platform that facilitates searching, renting, and buying real estate. It also features an extensive catalog of local furniture and interior products, offering users a complete experience to furnish and decorate their living spaces."
 			}
 		]
 	},

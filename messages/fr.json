@@ -23,7 +23,7 @@
 			},
 			{
 				"title": "Applications Web",
-				"description": "Je développe des applications web complètes (frontend + backend) réactives et performantes avec React.js, Next.js et Express.js, en optimisant l'UX/UI et en assurant l'accessibilité sur tous les appareils."
+				"description": "Je développe des applications web complètes (frontend + backend) réactives et performantes avec React.js, Next.js et Node.js, en optimisant l'UX/UI et en assurant l'accessibilité sur tous les appareils."
 			},
 			{
 				"title": "Formation & Mentoring",
@@ -46,8 +46,8 @@
 				"slug": "scanifood",
 				"name": "Scanifood",
 				"image": "/images/projects/dashboard.webp",
-				"except": "Une solution intelligente qui permet aux restaurants de créer des menus numériques avec des codes QR. Plus besoin d'imprimer des menus en papier - scannez et commandez simplement!",
-				"description": "Une solution intelligente qui permet aux restaurants de créer des menus numériques avec des codes QR. Plus besoin d'imprimer des menus en papier - scannez et commandez simplement!",
+				"except": "ScaniFood est une solution SaaS qui permet aux restaurateurs de créer et de partager des menus numériques via des codes QR. La plateforme propose des notifications de commande en temps réel grâce à Mercure.",
+				"description": "ScaniFood est une solution SaaS qui permet aux restaurateurs de créer et de partager des menus numériques via des codes QR. La plateforme propose des notifications de commande en temps réel grâce à Mercure, qui informe instantanément les caissiers, le personnel de cuisine et les responsables lorsque des commandes sont passées, garantissant ainsi le bon fonctionnement du restaurant. L'architecture prend en charge la gestion multi-locataires des restaurants avec un contrôle d'accès basé sur les rôles pour les différents postes du personnel.",
 				"github": "",
 				"siteWeb": "https://scanifood.com",
 				"stack": [
@@ -83,8 +83,8 @@
 				"slug": "blog",
 				"name": "Mon Blog",
 				"image": "https://i.imgur.com/gkmgQLJ.png",
-				"except": "C'est mon blog personnel où je partage mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
-				"description": "C'est mon blog personnel où je partage mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
+				"except": "Blog personnel où je publie des articles et des tutoriels axés sur le développement front-end, en particulier React et son écosystème.",
+				"description": "Blog personnel où je publie des articles et des tutoriels axés sur le développement front-end, en particulier React et son écosystème. Je partage mes expériences, mes conseils et mes projets dans le domaine du développement web.",
 				"github": "blog.alphakahere.dev",
 				"siteWeb": "https://blog.alphakahere.dev/",
 				"stack": [
@@ -101,8 +101,8 @@
 				"slug": "lvg-smart",
 				"name": "LVG Smart",
 				"image": "/images/projects/lvg.png",
-				"except": "Mon portfolio est un projet qui me permet de partager mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
-				"description": "Mon portfolio est un projet qui me permet de partager mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
+				"except": "Site vitrine de LVG Smart, entreprise basée en Guinée spécialisée dans les travaux d'assainissement.",
+				"description": "Site vitrine de LVG Smart, entreprise basée en Guinée spécialisée dans les travaux d'assainissement, offrant des services de qualité pour un environnement propre et sécurisé.",
 				"github": "",
 				"siteWeb": "https://lvg-smart.com/",
 				"stack": ["Next.js", "Tailwindcss", "TypeScript", "Sanity", "Vercel"]
@@ -112,8 +112,8 @@
 				"slug": "dream-company",
 				"name": "Dream Company",
 				"image": "/images/projects/dream-company.png",
-				"except": "Mon portfolio est un projet qui me permet de partager mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
-				"description": "Mon portfolio est un projet qui me permet de partager mes expériences, astuces, tutoriels, articles et aussi projets sur le développement web en général. En particulier, tous les sujets liés à React et à son écosystème.",
+				"except": "Une plateforme moderne qui facilite la recherche, la location et l'achat de biens immobiliers avec un catalogue de meubles intégrés.",
+				"description": "Une plateforme moderne et conviviale qui facilite la recherche, la location et l'achat de biens immobiliers. Elle propose également un large catalogue de meubles et de produits d'intérieur locaux, offrant aux utilisateurs une expérience complète pour aménager et décorer leur espace de vie.",
 				"github": "",
 				"siteWeb": "https://dream-company-app-nextjs.vercel.app/",
 				"stack": [
