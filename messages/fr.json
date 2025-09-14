@@ -137,12 +137,12 @@
 			},
 			{
 				"name": "Next.js",
-				"image": "https://i.imgur.com/tquy3cu.png",
+				"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
 				"description": "Next.js est un framework React populaire utilisé pour créer des applications web avec rendu côté serveur (SSR) et génération statique (SSG). Je l'utilise dans presque tous mes projets récents."
 			},
 			{
 				"name": "Node.js",
-				"image": "https://i.imgur.com/wYowhCh.png",
+				"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
 				"description": "Node.js est un environnement d'exécution JavaScript puissant qui permet le développement côté serveur. Combiné avec Express.js, je l'utilise pour créer des APIs robustes et des services backend pour mes applications fullstack."
 			}
 		]

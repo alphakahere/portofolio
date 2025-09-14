@@ -13,7 +13,7 @@ const Technologies = () => {
 			<div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
 				{data.technologie.list.map((item, i) => (
 					<div
-						className="group flex items-start gap-4 rounded-2xl bg-dark3 p-6 hover:bg-dark2 transition-all duration-300 hover:shadow-2xl border border-dark2"
+						className="group flex items-start gap-4 rounded-2xl bg-dark3 p-6 hover:bg-dark2 transition-all duration-300 hover:shadow-xl border border-dark3"
 						key={i}
 					>
 						<div className="flex-shrink-0 bg-gradient-to-br from-dark2 to-dark3 flex justify-center items-center p-4 rounded-xl w-16 h-16 group-hover:from-dark3 group-hover:to-dark transition-all duration-300">
@@ -31,7 +31,7 @@ const Technologies = () => {
 							>
 								{t(`list.${i}.name`)}
 							</h3>
-							<p className="text-sm text-greyText leading-relaxed group-hover:text-white/90 transition-colors duration-300">
+							<p className="text-sm xl:text-base text-greyText leading-relaxed group-hover:text-white/90 transition-colors duration-300">
 								{t(`list.${i}.description`)}
 							</p>
 						</div>
