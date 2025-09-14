@@ -83,15 +83,15 @@
 		"list": [
 			{
 				"name": "React",
-				"description": "React is the most popular Javascript library for building dynamic and elegant web applications. It's my favorite library for building web interfaces. I've been using React for three years now."
+				"description": "React is my favorite library for building web interfaces. I've been using React for over four years, creating dynamic and elegant applications across various industries."
 			},
 			{
 				"name": "Next.js",
-				"description": "Next.js is a popular open-source React framework used to build server-side rendered (SSR) and statically generated (SSG) web applications. I use it in almost all my recent projects."
+				"description": "Next.js is my go-to framework for production applications. I've been using it for three years to build SSR and SSG web applications with optimal performance."
 			},
 			{
-				"name": "Laravel",
-				"description": "Laravel is one of the most popular PHP frameworks, and I've been using it on some of my recent projects, as well as for clients depending on their needs."
+				"name": "Node.js",
+				"description": "I've been using Node.js with Express.js for over two years to build robust APIs and backend services for full-stack applications."
 			}
 		]
 	},

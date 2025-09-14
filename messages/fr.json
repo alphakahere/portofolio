@@ -133,17 +133,17 @@
 			{
 				"name": "React",
 				"image": "https://i.imgur.com/CnwoTZh.png",
-				"description": "React est la bibliothèque Javascript la plus populaire pour construire des applications web dynamiques et élégantes. C'est ma bibliothèque préférée pour construire des interfaces web. J'utilise React depuis maintenant trois ans."
+				"description": "React est ma librairie JavaScript favorite pour créer des interfaces web dynamiques et élégantes. C'est mon outil principal pour développer des interfaces utilisateur. J'utilise React depuis plus de quatre ans maintenant."
 			},
 			{
-				"name": "Nextjs",
+				"name": "Next.js",
 				"image": "https://i.imgur.com/tquy3cu.png",
-				"description": "Next.js est un framework React open-source populaire utilisé pour construire des applications web rendues côté serveur (SSR) et générées statiquement (SSG). Je l'utilise dans presque tous mes projets récents."
+				"description": "Next.js est un framework React populaire utilisé pour créer des applications web avec rendu côté serveur (SSR) et génération statique (SSG). Je l'utilise dans presque tous mes projets récents."
 			},
 			{
-				"name": "Laravel",
+				"name": "Node.js",
 				"image": "https://i.imgur.com/wYowhCh.png",
-				"description": "Laravel est l'un des frameworks PHP les plus populaires, je l'utilise sur certains de mes projets récents et aussi pour des clients en fonction de leurs besoins."
+				"description": "Node.js est un environnement d'exécution JavaScript puissant qui permet le développement côté serveur. Combiné avec Express.js, je l'utilise pour créer des APIs robustes et des services backend pour mes applications fullstack."
 			}
 		]
 	},
