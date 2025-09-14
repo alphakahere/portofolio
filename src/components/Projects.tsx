@@ -26,9 +26,12 @@ const Projects = () => {
 								<Image
 									src={item.image}
 									width={560}
-									height={500}
-									alt={`Image ${item.name}`}
-									className="rounded-lg h-[300px] md:h-[350px] w-full object-cover md:object-fill"
+									height={400}
+									alt={`${item.name} project image`}
+									className="rounded-xl w-full h-[280px] md:h-[320px] object-cover transition-transform duration-500"
+									placeholder="blur"
+									blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+									priority={i < 3}
 								/>
 								<div className="overlay text-white bg-dark3 p-5 absolute top-0 left-0 h-full rounded-lg hidden hover:scale-[1.01] overflow-hidden">
 									<div className="flex flex-col justify-between h-full">
