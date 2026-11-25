@@ -1,119 +1,89 @@
 import type { Metadata } from "next";
-import { Lato, Rubik } from "next/font/google";
+import { Instrument_Serif, Inter, JetBrains_Mono } from "next/font/google";
 import "../globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import { unstable_setRequestLocale } from "next-intl/server";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/react";
+import { locales, site } from "@/data/site";
 
-// const rubik = Rubik({ subsets: ["latin"] });
-const lato = Lato({ subsets: ["latin"], weight: ["100", "300", "400", "700", "900"] });
+const serif = Instrument_Serif({
+	subsets: ["latin"],
+	weight: "400",
+	style: ["normal", "italic"],
+	variable: "--font-serif",
+	display: "swap",
+});
+const sans = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
+const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap" });
 
-export const metadata: Metadata = {
-	metadataBase: new URL("https://alphakahere.dev"),
-	title: "alphakahere.dev",
-	description:
-		"Alpha Amadou Diallo - Full Stack Developer | Javascript | React | Next.js | Node.js | Express",
-	keywords: [
-		"Full Stack Developer",
-		"JavaScript",
-		"React",
-		"Next.js",
-		"Node.js",
-		"Express",
-		"Web Development",
-		"Portfolio",
-		"Frontend",
-		"Backend",
-		"Software Engineer",
-	],
-	authors: [{ name: "Alpha Amadou Diallo" }],
-	creator: "Alpha Amadou Diallo",
-	publisher: "Alpha Amadou Diallo",
-	robots: {
-		index: true,
-		follow: true,
-		googleBot: {
-			index: true,
-			follow: true,
-			"max-video-preview": -1,
-			"max-image-preview": "large",
-			"max-snippet": -1,
-		},
-	},
-	openGraph: {
-		type: "website",
-		locale: "en_US",
-		url: "https://alphakahere.dev",
-		title: "alphakahere.dev - Full Stack Developer Portfolio",
-		description:
-			"Alpha Amadou Diallo - Full Stack Developer specializing in JavaScript, React, Next.js, Node.js, and Express",
-		siteName: "alphakahere.dev",
-		images: [
-			{
-				url: "/images/profile.png",
-				width: 1200,
-				height: 630,
-				alt: "Alpha Amadou Diallo - Full Stack Developer",
-			},
-		],
-	},
-	twitter: {
-		card: "summary_large_image",
-		title: "alphakahere.dev - Full Stack Developer Portfolio",
-		description:
-			"Alpha Amadou Diallo - Full Stack Developer specializing in JavaScript, React, Next.js, Node.js, and Express",
-		images: ["/images/profile.png"],
-		creator: "@alphakahere",
-		site: "@alphakahere",
-	},
-	manifest: "/manifest.json",
-	icons: {
-		icon: [
-			{ url: "/favicon.png", sizes: "32x32", type: "image/png" },
-			{ url: "/favicon.png", sizes: "16x16", type: "image/png" },
-		],
-		apple: [{ url: "/favicon.png", sizes: "180x180", type: "image/png" }],
-		other: [{ url: "/favicon.png", rel: "mask-icon", color: "#000000" }],
-	},
-	alternates: {
-		canonical: "https://alphakahere.dev",
-		languages: {
-			"en-US": "https://alphakahere.dev/en",
-			"fr-FR": "https://alphakahere.dev/fr",
-		},
-	},
-	category: "technology",
-	classification: "Portfolio",
-	referrer: "origin-when-cross-origin",
-	formatDetection: {
-		email: false,
-		address: false,
-		telephone: false,
-	},
-};
+// Runs before first paint: stored theme, else system preference (no flash).
+const themeScript = `(function(){try{var t=localStorage.getItem("theme");var d=t?t==="dark":window.matchMedia("(prefers-color-scheme: dark)").matches;document.documentElement.classList.toggle("dark",d)}catch(e){}})()`;
 
 type Props = {
 	children: React.ReactNode;
 	params: { locale: string };
 };
-const locales = ["en", "fr"];
 
 export function generateStaticParams() {
 	return locales.map((locale) => ({ locale }));
 }
 
-export default function RootLayout({ children, params: { locale } }: Props) {
+export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+	const t = await getTranslations({ locale, namespace: "meta" });
+	const url = `${site.url}/${locale}`;
+	return {
+		metadataBase: new URL(site.url),
+		title: t("title"),
+		description: t("description"),
+		authors: [{ name: site.author }],
+		creator: site.author,
+		alternates: {
+			canonical: url,
+			languages: { en: `${site.url}/en`, fr: `${site.url}/fr` },
+		},
+		openGraph: {
+			type: "website",
+			locale: locale === "fr" ? "fr_FR" : "en_US",
+			url,
+			title: t("title"),
+			description: t("description"),
+			siteName: site.name,
+			images: [{ url: "/images/profile.png", alt: site.author }],
+		},
+		twitter: {
+			card: "summary_large_image",
+			title: t("title"),
+			description: t("description"),
+			images: ["/images/profile.png"],
+			creator: "@alphakahere",
+		},
+		icons: { icon: "/favicon.png", apple: "/favicon.png" },
+		robots: { index: true, follow: true },
+	};
+}
+
+export default async function RootLayout({ children, params: { locale } }: Props) {
 	unstable_setRequestLocale(locale);
+	const t = await getTranslations("nav");
 	return (
-		<html lang={locale}>
-			<body
-				className={`${lato.className} bg-dark snap-y snap-mandatory overflow-x-hidden`}
-			>
-				<div className="px-5 lg:px-20">
-					<Header />
-					<main className="snap-y snap-mandatory">{children}</main>
-				</div>
+		<html
+			lang={locale}
+			className={`${serif.variable} ${sans.variable} ${mono.variable}`}
+			suppressHydrationWarning
+		>
+			<head>
+				<script dangerouslySetInnerHTML={{ __html: themeScript }} />
+			</head>
+			<body className="overflow-x-hidden">
+				<a
+					href="#main"
+					className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
+				>
+					{t("skipToContent")}
+				</a>
+				<Navbar />
+				<main id="main">{children}</main>
 				<Footer />
 				<Analytics />
 			</body>

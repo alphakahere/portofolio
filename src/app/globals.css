@@ -2,53 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-	transition: ease all 1000ms;
+/* Design tokens — docs/DESIGN_SYSTEM.md §3. RGB channels, consumed via tailwind.config.ts */
+@layer base {
+	:root {
+		--background: 247 247 244; /* #F7F7F4 */
+		--foreground: 23 24 22; /* #171816 */
+		--surface: 255 255 255; /* #FFFFFF */
+		--surface-secondary: 232 233 229; /* #E8E9E5 */
+		--muted: 119 122 117; /* #777A75 */
+		--border: 226 227 222; /* #E2E3DE */
+		--primary: 49 92 219; /* #315CDB */
+		--primary-hover: 36 75 193; /* #244BC1 */
+		--primary-foreground: 255 255 255; /* #FFFFFF */
+		--accent: 49 92 219; /* #315CDB */
+		--success: 41 157 102; /* #299D66 */
+		color-scheme: light;
+	}
+
+	.dark {
+		--background: 17 19 17; /* #111311 */
+		--foreground: 243 243 239; /* #F3F3EF */
+		--surface: 25 28 25; /* #191C19 */
+		--surface-secondary: 32 35 31; /* #20231F */
+		--muted: 161 165 158; /* #A1A59E */
+		--border: 44 48 43; /* #2C302B */
+		--primary: 145 168 255; /* #91A8FF */
+		--primary-hover: 168 185 255; /* #A8B9FF */
+		--primary-foreground: 17 19 17; /* #111311 */
+		--accent: 145 168 255; /* #91A8FF */
+		--success: 85 197 139; /* #55C58B */
+		color-scheme: dark;
+	}
+
+	html {
+		scroll-behavior: smooth;
+		scroll-padding-top: 5rem; /* sticky header */
+	}
+
+	body {
+		@apply bg-background text-foreground font-sans antialiased;
+	}
+
+	:focus-visible {
+		@apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		html {
+			scroll-behavior: auto;
+		}
+		*,
+		*::before,
+		*::after {
+			transition-duration: 0.01ms !important;
+			animation-duration: 0.01ms !important;
+		}
+	}
 }
 
-.container {
-    @apply  px-2 lg:px-5 2xl:px-10 mx-auto overflow-x-hidden;
-}
+@layer components {
+	.page-container {
+		@apply mx-auto w-full max-w-page px-5 md:px-8 lg:px-12;
+	}
 
-.button {
-	@apply bg-primary text-xs font-bold flex items-center gap-3 text-grey_light px-5 py-3 rounded-4xl -tracking-tighter uppercase;
-}
-.title-text {
-	@apply text-white font-bold;
-}
-.text {
-	@apply text-greyText font-normal leading-normal;
-}
-.description_text p{
-	@apply text-white opacity-80 text-base;
-}
+	/* Section rhythm: 56–72px mobile, 72–88px tablet, 96–128px desktop */
+	.section {
+		@apply py-16 md:py-20 lg:py-28;
+	}
 
-.vector {
-	transform: rotate(-178.318deg);
-	flex-shrink: 0;
-	background-color: rgba(255, 255, 255, 0.18);
-	filter: blur(100px);
-}
-.project__card_item:hover .overlay{
-    display: block !important;
-	width: 100%;
-}
-.button_link {
-	@apply text-white font-medium leading-normal text-sm px-4 bg-dark2 rounded-4xl opacity-80 border-2 border-grey hover:bg-dark transition-all ease-in duration-300;
-}
-/* width */
-.custom-scrollbar::-webkit-scrollbar {
-	width: 8px;
-}
+	.eyebrow {
+		@apply inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.14em] text-foreground;
+	}
+	.eyebrow::before {
+		content: "";
+		@apply h-1.5 w-1.5 rounded-full bg-primary;
+	}
 
-/* Track */
-.custom-scrollbar::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px transparent;
-	border-radius: 10px;
-}
-
-/* Handle */
-.custom-scrollbar::-webkit-scrollbar-thumb {
-	background: #A8A8A8;
-	border-radius: 10px;
+	.link-arrow {
+		@apply inline-flex items-center gap-1.5 text-sm font-medium text-foreground underline decoration-border underline-offset-4 transition-colors duration-150 hover:text-accent hover:decoration-accent;
+	}
 }

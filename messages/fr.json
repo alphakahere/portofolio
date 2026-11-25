@@ -1,170 +1,78 @@
 {
-	"header": {
-		"greetings": "Hi, Je suis Alpha Amadou Diallo",
-		"title": "Développeur web FullStack JavaScript et TypeScript ",
-		"buttonText": "Voir mes projets"
+	"meta": {
+		"title": "Alpha Amadou Diallo — Développeur Fullstack & Technical Lead",
+		"description": "Je conçois des produits numériques qui résolvent de vrais problèmes. De l'idée à la production, j'aide à transformer des défis complexes en expériences numériques fiables."
+	},
+	"nav": {
+		"about": "À propos",
+		"projects": "Projets",
+		"expertise": "Expertise",
+		"insights": "Articles",
+		"contact": "Contact",
+		"mainLabel": "Navigation principale",
+		"openMenu": "Ouvrir le menu",
+		"closeMenu": "Fermer le menu",
+		"languageLabel": "Langue",
+		"switchToDark": "Activer le thème sombre",
+		"switchToLight": "Activer le thème clair",
+		"skipToContent": "Aller au contenu"
+	},
+	"hero": {
+		"eyebrow": "Développeur Fullstack · Technical Lead",
+		"headline": "Je conçois des produits numériques qui résolvent de <em>vrais</em> problèmes.",
+		"text": "De l'idée à la production, j'aide à transformer des défis complexes en expériences numériques fiables.",
+		"primaryCta": "Découvrir mes projets",
+		"secondaryCta": "Discutons",
+		"location": "Basé en Afrique de l'Ouest · Disponible partout dans le monde",
+		"portraitAlt": "Portrait d'Alpha Amadou Diallo"
+	},
+	"work": {
+		"eyebrow": "Projets sélectionnés",
+		"title": "Une sélection<br></br>de ce que j'ai construit.",
+		"screenshotSoon": "Capture à venir",
+		"items": {
+			"wekomkom": { "category": "Plateforme de financement · IA · Fullstack" },
+			"visitguinea": { "category": "Tourisme · Développement produit" },
+			"endam360": { "category": "Logiciel métier · Data" }
+		}
+	},
+	"expertise": {
+		"eyebrow": "Ce que je fais",
+		"title": "De l'idée<br></br>au produit fiable.",
+		"text": "Je conçois et <accent>développe</accent> des solutions numériques modernes, en mettant l'accent sur la performance, la scalabilité et l'impact concret.",
+		"link": "En savoir plus sur mon approche",
+		"items": {
+			"fullstack": "Développement Fullstack",
+			"mobile": "Développement Mobile",
+			"ai": "Intégration de l'IA",
+			"architecture": "Architecture logicielle",
+			"leadership": "Leadership technique"
+		}
 	},
 	"about": {
-		"title": "À propos de moi",
-		"text": "Je suis un développeur fullstack React.js, Next.js & Node.js avec plus de 4 ans d'expérience, axé sur la création (et parfois la conception) d'expériences numériques exceptionnelles qui sont rapides, accessibles, visuellement attrayantes et responsives. Bien que je développe des applications web depuis plus de quatre ans, j'aime toujours cela comme si c'était quelque chose de nouveau.",
-		"button": "Me contacter"
+		"eyebrow": "Un peu plus sur moi",
+		"title": "Je tiens à ce que l'on construit, et à la manière de le construire.",
+		"text": "Je suis <b>développeur</b>, <b>résolveur de problèmes</b> et <b>éternel apprenant</b>, passionné par la technologie et sa capacité à créer un changement positif.",
+		"link": "En savoir plus sur moi",
+		"portraitAlt": "Alpha Amadou Diallo"
+	},
+	"testimonials": {
+		"eyebrow": "Témoignages",
+		"title": "Ce que disent ceux qui ont travaillé avec moi.",
+		"previous": "Témoignage précédent",
+		"next": "Témoignage suivant",
+		"items": {
+			"placeholder1": "Alpha est un développeur talentueux et un excellent coéquipier. Il a mené un projet complexe avec professionnalisme et un vrai sens des responsabilités."
+		}
+	},
+	"contact": {
+		"eyebrow": "Travaillons ensemble",
+		"title": "Vous avez un projet qui compte ?",
+		"text": "Parlons de votre projet, de votre équipe ou d'une future collaboration.",
+		"cta": "Me contacter"
 	},
 	"footer": {
-		"ctaText": "Contactez-moi",
-		"address": "Dakar, Sénégal",
-		"copyright": "Tous droits réservés"
-	},
-	"service": {
-		"title": "Comment puis-je vous aider",
-		"list": [
-			{
-				"title": "Développement Frontend",
-				"description": "Je crée des interfaces utilisateur modernes et intuitives en respectant les standards web, optimisant les performances et garantissant la compatibilité cross-browser pour une expérience utilisateur exceptionnelle."
-			},
-			{
-				"title": "Applications Web",
-				"description": "Je développe des applications web complètes (frontend + backend) réactives et performantes avec React.js, Next.js et Node.js, en optimisant l'UX/UI et en assurant l'accessibilité sur tous les appareils."
-			},
-			{
-				"title": "Formation & Mentoring",
-				"description": "Passionné par la transmission, je propose des formations personnalisées en développement web moderne (React.js, JavaScript ES6+) pour écoles, entreprises et développeurs souhaitant monter en compétences."
-			}
-		]
-	},
-	"project": {
-		"title": "Mes projets en vedette",
-		"descriptionTitle": "Description du projet",
-		"buttonDetailText": "Plus de détails",
-		"detailTitle": "Détails du projet",
-		"stackTile": "Technologies utilisées",
-		"contributionTitle": "Contribution",
-		"buttonViewWebsite": "Voir le site",
-		"githubTooltip": "Ce code est propriétaire!",
-		"list": [
-			{
-				"id": 0,
-				"slug": "scanifood",
-				"name": "Scanifood",
-				"image": "/images/projects/dashboard.webp",
-				"except": "ScaniFood est une solution SaaS qui permet aux restaurateurs de créer et de partager des menus numériques via des codes QR. La plateforme propose des notifications de commande en temps réel grâce à Mercure.",
-				"description": "ScaniFood est une solution SaaS qui permet aux restaurateurs de créer et de partager des menus numériques via des codes QR. La plateforme propose des notifications de commande en temps réel grâce à Mercure, qui informe instantanément les caissiers, le personnel de cuisine et les responsables lorsque des commandes sont passées, garantissant ainsi le bon fonctionnement du restaurant. L'architecture prend en charge la gestion multi-locataires des restaurants avec un contrôle d'accès basé sur les rôles pour les différents postes du personnel.",
-				"github": "",
-				"siteWeb": "https://scanifood.com",
-				"stack": [
-					"React",
-					"Next.js",
-					"Tailwindcss",
-					"TypeScript",
-					"Redux",
-					"Redux Toolkit"
-				]
-			},
-			{
-				"id": 1,
-				"slug": "afimey-store",
-				"name": "Afimey Store",
-				"image": "/images/projects/afimey.png",
-				"except": "Afimey Store est une plateforme e-commerce qui permet aux clients de commander des produits en ligne.",
-				"description": "Afimey Store est une plateforme e-commerce qui permet aux clients de commander des produits en ligne.",
-				"github": "",
-				"siteWeb": "https://afimey-store.com/",
-				"contribution": "Sur ce projet, j'ai travaillé avec deux autres développeurs où mon rôle principal était de développer toutes les interfaces utilisateurs et de gérer les back-offices.",
-				"stack": [
-					"React",
-					"Vite",
-					"Tailwindcss",
-					"TypeScript",
-					"tanstack router",
-					"tanstack query"
-				]
-			},
-			{
-				"id": 2,
-				"slug": "blog",
-				"name": "Mon Blog",
-				"image": "https://i.imgur.com/gkmgQLJ.png",
-				"except": "Blog personnel où je publie des articles et des tutoriels axés sur le développement front-end, en particulier React et son écosystème.",
-				"description": "Blog personnel où je publie des articles et des tutoriels axés sur le développement front-end, en particulier React et son écosystème. Je partage mes expériences, mes conseils et mes projets dans le domaine du développement web.",
-				"github": "blog.alphakahere.dev",
-				"siteWeb": "https://blog.alphakahere.dev/",
-				"stack": [
-					"Next.js",
-					"Sanity",
-					"TypeScript",
-					"Tailwindcss",
-					"Vercel",
-					"Vercel analytics"
-				]
-			},
-			{
-				"id": 3,
-				"slug": "lvg-smart",
-				"name": "LVG Smart",
-				"image": "/images/projects/lvg.png",
-				"except": "Site vitrine de LVG Smart, entreprise basée en Guinée spécialisée dans les travaux d'assainissement.",
-				"description": "Site vitrine de LVG Smart, entreprise basée en Guinée spécialisée dans les travaux d'assainissement, offrant des services de qualité pour un environnement propre et sécurisé.",
-				"github": "",
-				"siteWeb": "https://lvg-smart.com/",
-				"stack": ["Next.js", "Tailwindcss", "TypeScript", "Sanity", "Vercel"]
-			},
-			{
-				"id": 4,
-				"slug": "dream-company",
-				"name": "Dream Company",
-				"image": "/images/projects/dream-company.png",
-				"except": "Une plateforme moderne qui facilite la recherche, la location et l'achat de biens immobiliers avec un catalogue de meubles intégrés.",
-				"description": "Une plateforme moderne et conviviale qui facilite la recherche, la location et l'achat de biens immobiliers. Elle propose également un large catalogue de meubles et de produits d'intérieur locaux, offrant aux utilisateurs une expérience complète pour aménager et décorer leur espace de vie.",
-				"github": "",
-				"siteWeb": "https://dream-company-app-nextjs.vercel.app/",
-				"stack": [
-					"Next.js",
-					"Tailwindcss",
-					"TypeScript",
-					"Supabase",
-					"Zod",
-					"Vercel"
-				]
-			}
-		]
-	},
-	"technologie": {
-		"title": "Technologies que j'utilise",
-		"list": [
-			{
-				"name": "React",
-				"image": "https://i.imgur.com/CnwoTZh.png",
-				"description": "React est ma librairie JavaScript favorite pour créer des interfaces web dynamiques et élégantes. C'est mon outil principal pour développer des interfaces utilisateur. J'utilise React depuis plus de quatre ans maintenant."
-			},
-			{
-				"name": "Next.js",
-				"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-				"description": "Next.js est un framework React populaire utilisé pour créer des applications web avec rendu côté serveur (SSR) et génération statique (SSG). Je l'utilise dans presque tous mes projets récents."
-			},
-			{
-				"name": "Node.js",
-				"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-				"description": "Node.js est un environnement d'exécution JavaScript puissant qui permet le développement côté serveur. Combiné avec Express.js, je l'utilise pour créer des APIs robustes et des services backend pour mes applications fullstack."
-			}
-		]
-	},
-	"testimonial": {
-		"title": "Témoignages",
-		"list": [
-			{
-				"name": "Sadio Sangharé",
-				"function": "CTO at Volkeno",
-				"testimonial": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
-			},
-			{
-				"name": "Sada",
-				"function": "CEO",
-				"testimonial": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
-			},
-			{
-				"name": "Elhadj",
-				"function": "Web developer",
-				"testimonial": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo unde ullam quos atque eveniet aliquam nam."
-			}
-		]
+		"rights": "Tous droits réservés.",
+		"socialLabel": "Réseaux sociaux"
 	}
 }
